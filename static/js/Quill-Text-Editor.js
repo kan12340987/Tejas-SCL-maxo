@@ -25,6 +25,7 @@ $(document).ready(function(){
       modules: {
         toolbar: toolbarOptions
       },
+
       theme: 'snow'
     });
     
