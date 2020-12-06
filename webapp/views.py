@@ -11,4 +11,4 @@ def notebook(request):
     return render(request, 'Notebook.html')
 
 def login(request):
-    pass
+    return render(request, 'login_form.html')
