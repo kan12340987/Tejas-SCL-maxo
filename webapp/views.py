@@ -10,5 +10,3 @@ def about(request):
 def notebook(request):
     return render(request, 'Notebook.html')
 
-def login(request):
-    return render(request, 'login_form.html')
