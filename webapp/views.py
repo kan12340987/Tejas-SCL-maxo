@@ -10,3 +10,6 @@ def about(request):
 def notebook(request):
     return render(request, 'Notebook.html')
 
+def landingpage(request):
+    return render(request, 'Secondarylogin.html')
+
