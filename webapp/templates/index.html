@@ -1,5 +1,8 @@
 {% extends "Standard_Template.html" %}
 {% load static %}
+ {% block head %}
+ <title>Home - NoteRepo</title>
+ {% endblock %}
     {% block content %}
                 <div class="container"><a class="navbar-brand text-success" href="{% url 'Users-home' %}"
                         style="border-left-color: rgb(115,26,26);"><i
