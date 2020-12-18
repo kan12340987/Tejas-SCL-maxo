@@ -7,6 +7,7 @@ from django.contrib.auth import authenticate, logout
 from django.contrib.auth import login as auth_login
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.decorators import login_required
+from django.http import HttpResponseRedirect
 
 # Create your views here.
 
@@ -29,10 +30,14 @@ def login(request):
                     messages.success(request, f'You have logged into your account { user_cred } !!')
                     return redirect('Users-Homepage')
                 else:
-                    print('error')
+                    messages.error(request, f'Invalid Credentials')
+                    return HttpResponseRedirect("")
 
             else:
-                print(signupform)
+                print('error')
+                messages.error(request, f'Invalid Credentials')
+                return HttpResponseRedirect(request.path_info)
+
 
     else:    
         signupform = SignUpForm()
@@ -42,10 +47,12 @@ def login(request):
     }
     return render(request, 'login_form.html', context)
 
+@login_required
 def logOut(request):
     logout(request)
     return redirect(web_views.home)
 
+@login_required
 def dashboard(request):
     return render(request, 'dashboard.html')
 
