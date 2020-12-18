@@ -1,13 +1,15 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 import Users.forms
+from webapp import views as web_views
 from .forms import SignUpForm
-from django.contrib.auth import authenticate
+from django.contrib.auth import authenticate, logout
 from django.contrib.auth import login as auth_login
 from django.contrib.auth.forms import AuthenticationForm
-
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
+
 def login(request):
     signupform = SignUpForm(request.POST)
     login_form = AuthenticationForm(data=request.POST)
@@ -40,8 +42,13 @@ def login(request):
     }
     return render(request, 'login_form.html', context)
 
+def logOut(request):
+    logout(request)
+    return redirect(web_views.home)
+
 def dashboard(request):
     return render(request, 'dashboard.html')
 
+@login_required
 def profile(request):
     return render(request, 'profile.html')
