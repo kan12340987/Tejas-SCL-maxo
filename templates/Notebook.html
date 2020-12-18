@@ -1,0 +1,59 @@
+{% extends "Standard_Template.html" %}
+{% load static %}
+ {% block head %}
+ <title>Note: Make your own</title>
+ {% endblock %}
+    {% block content %}
+                <div class="container"><button class="navbar-toggler collapsed"
+                        data-toggle="collapse"><span></span><span></span><span></span></button></div>
+            </nav>
+        </header>
+        <!-- End: Menu + header background -->
+    </div>
+    <!-- End:  Fixed Navbar start with transparency background -->
+    <div style="height: 100px;"></div>
+    
+     <!-- Start: Quill Text Editor -->
+     <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+                    <h1></h1>
+                </div>
+                <div id="toolbar"></div>
+                <div id="editor"></div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- End: Quill Text Editor -->
+
+    <!-- Start: background + text -->
+    <header class="bg-success d-flex align-items-center"
+        style="height: 0vh;color: rgb(56,100,143);background: rgb(26,73,238);">
+        <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white transparency border-bottom border-light"
+            id="transmenu-1" style="border-style: none;opacity: 1;">
+            <div class="container"><a class="navbar-brand text-success" href="{% url 'Users-home' %}"
+                    style="border-left-color: rgb(115,26,26);"><i
+                        class="fa fa-leaf fa-2x"></i><strong>Note</strong>Repo</a>
+                <div></div><button data-toggle="collapse" class="navbar-toggler collapsed"
+                    data-target="#navcol-1"><span></span><span></span><span></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-home' %}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-about' %}">About us</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li> -->
+                        <li class="dropdown nav-item active"><a class="dropdown-toggle nav-link" data-toggle="dropdown"
+                                aria-expanded="false" href="#">Resources</a>
+                            <div class="dropdown-menu"><a class="dropdown-item active"
+                                    href="{% url 'Users-Notebook' %}">Notebooks</a><a class="dropdown-item" href="#">Textbooks</a><a
+                                    class="dropdown-item" href="#">Question Papers</a></div>
+                        </li>
+                        <!-- <li class="nav-item"><a class="nav-link active" href="#">Sign up&nbsp;<div></div></a></li> -->
+                    </ul>
+                </div><a href="{% url 'Users-login' %}"><button class="btn btn-primary" type="button">Log
+                        In</button></a>
+            </div>
+        </nav>
+        <div></div>
+    {% endblock content %}
