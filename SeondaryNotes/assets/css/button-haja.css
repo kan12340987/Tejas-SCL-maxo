@@ -1,0 +1,7 @@
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
+  color: #333;
+  background-color: #face1a;
+  /*border-color: #8c8c8c;*/
+  /*background-image: url("none");*/
+}
+
