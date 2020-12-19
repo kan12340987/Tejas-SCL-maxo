@@ -15,7 +15,15 @@
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
+
           <form method="POST" action="#" class="sign-in-form">
+            {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }}" >
+                    {{ message }}
+                </div>
+            {% endfor %}
+            {% endif %}
             {% csrf_token %}
             <h2 class="title">Sign in</h2>
             <div class="input-field">
