@@ -44,7 +44,7 @@
     source venv/bin/activate
     ```
    
-   If you are giving a different name other than `venv`, then please mention it in `.gitigonre` first
+   If you are giving a different name other than `venv`, then please mention it in `.gitignore` first
 
 3. Install all the requirements
 
@@ -69,18 +69,18 @@
     ```
 
 6. Create a super user.
-    In django if you want to access admin page, you need to create an account first.
+    In django if you want to access admin page, you need to create an account with staff status first.
     ```djangotemplate
     python manage.py createsuperuser
     ```
    Then select your username and password or use Team credentials
    
-7. Run server
+7. Run the serve on localhost:
     ```bash
     python manage.py runserver
     ```
 
-8. Do the changes and send a PR referencing the changes.
+8. Make the changes and send a PR referencing the changes.
    
 
 ## Contributing/ Adding Features
