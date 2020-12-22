@@ -31,7 +31,7 @@
     pip install virtualenv
     ```
     ```bash
-    virtualenv -p python venv
+    virtualenv venv
     ```
     ```bash
     venv\Scripts\activate
@@ -58,7 +58,7 @@
     git status
     git pull
     git branch
-    git checkout -b < your-branch-here >
+    git checkout -b <your-branch-here>
     ```
    
 5. Make migrations/ Create db.sqlite3
