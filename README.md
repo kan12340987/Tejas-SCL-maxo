@@ -10,6 +10,15 @@
 <img src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>
 
 
+#### A Note for Contributors
+
+```bash
+This is the official project repo for SCL - Maxo, a 40 day Hackathon organised by Sushiksha, World Konkani Center.
+The repo is monitored and only members from team Tejas are allowed to make changes. 
+Thus, we will not be accepting any PRs from anyone apart from team members. 
+For further details, you can get in touch with the repo owner or contributors. 
+```
+
 
 #### Project Description
 
