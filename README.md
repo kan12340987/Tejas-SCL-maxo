@@ -18,9 +18,9 @@
     <br />
     <a href="#">View a Live Demo</a>
     · 
-    <a href="https://github.com/kan12340987/Tejas-SCL-maxo/blob/main/README.md">Report a Bug</a>
+    <a href="https://github.com/kan12340987/Tejas-SCL-maxo/issues/new">Report a Bug</a>
     ·
-    <a href="https://github.com/kan12340987/Tejas-SCL-maxo/blob/main/README.md">Request a Feature</a>
+    <a href="https://github.com/kan12340987/Tejas-SCL-maxo/issues/new">Request a Feature</a>
   </p>
 </p>
     <br />
