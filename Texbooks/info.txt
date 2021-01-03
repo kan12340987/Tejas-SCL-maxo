@@ -4,7 +4,7 @@ Author: Sanjoy Dasgupta, Christos Papadimitriou, Umesh Vazirani
 Branch: Computer Sciences and Information Technology
 Subject: Computer Sciences and Information Technology
 Publication Year: 2006
-Link: 
+Link: https://drive.google.com/file/d/1vFlvyr4C7_8qOlD7WnNEwOQeqSVfJ2oH/view?usp=sharing
 
 #2
 Title:Big Data, Cloud Computing, Data Science  Engineering
