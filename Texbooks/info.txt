@@ -60,7 +60,7 @@ Author: Nyhoff, Larry
 Branch: Computer Sciences and Information Technology
 Subject: Computer Sciences and Information Technology
 Publication Year: 2012
-Link: 
+Link: https://drive.google.com/file/d/11LPIg242WOM-HPPQmw8zNuolJPJGEFep/view?usp=sharing
 
 #9
 Title:Structure and Interpretation of Computer Programs - 2nd Edition
