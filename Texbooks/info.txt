@@ -1,3 +1,4 @@
+
 #1
 Title: Algorithms
 Author: Sanjoy Dasgupta, Christos Papadimitriou, Umesh Vazirani
@@ -5,3 +6,83 @@ Branch: Computer Sciences and Information Technology
 Subject: Computer Sciences and Information Technology
 Publication Year: 2006
 Link: 
+
+#1
+Title: Algorithms
+Author: Sanjoy Dasgupta, Christos Papadimitriou, Umesh Vazirani
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year: 2006
+Link: https://drive.google.com/file/d/1vFlvyr4C7_8qOlD7WnNEwOQeqSVfJ2oH/view?usp=sharing
+
+#2
+Title:Big Data, Cloud Computing, Data Science  Engineering
+Author:Roger Lee
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year: 2018
+Link: https://drive.google.com/file/d/1BJK_LY3b9gWgU9J7PC9hL0RhTJOj6upI/view?usp=sharing
+
+#3
+Title:Computational Science and Engineering 
+Author:Gilbert Strang
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year: 2007
+Link: https://drive.google.com/file/d/1rpo4q_9nPDDkjSJPRdxU6tfDtQwxa2Sq/view?usp=sharing
+
+#4
+Title:Introduction to Languages and the Theory 
+Author:John Martin
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year: 1991
+Link: https://drive.google.com/file/d/18lUk-5q7CLAgHhm8Xn3DDUAa8E1Tz6yn/view?usp=sharing
+
+#5
+Title:Introduction to Python for Science and Engineering
+Author: David J. Pine
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year:2019
+Link: https://drive.google.com/file/d/1kKg7YTguZDzC_mSWugzNPRW-Jkk2C--I/view?usp=sharing
+
+#6
+Title:Let Us C, 14th edition
+Author:Yashavant Kanetkar
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year:2016
+Link: https://drive.google.com/file/d/1qwL6C2PFzgv2x2HDq3jwF57BxMliUw1J/view?usp=sharing
+
+#7
+Title:Linear Algebra for Computational Sciences and Engineering
+Author:Ferrante Neri
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year: 2016
+Link: https://drive.google.com/file/d/1RULRN24PxdV-KfVMaJBA5m3LTtYH3m0C/view?usp=sharing
+
+#8
+Title:Programming in C++ for Engineering and Science
+Author: Nyhoff, Larry
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year: 2012
+Link: https://drive.google.com/file/d/11LPIg242WOM-HPPQmw8zNuolJPJGEFep/view?usp=sharing
+
+#9
+Title:Structure and Interpretation of Computer Programs - 2nd Edition
+Author: Harold Abelson, Gerald Jay Sussman
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology, Electrical Engineering
+Publication Year: 1979
+Link: https://drive.google.com/file/d/1PPHAA7ns7LxrCZfITbOAzZvLAia71u_Z/view?usp=sharing
+
+#10
+Title:Automate the Boring Stuff with Python (textbook)
+Author:Al Sweigart
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year: 2015
+Link: https://drive.google.com/file/d/1hR7PNSOfo-z6cuyz8dg62OFikDNusDRQ/view?usp=sharing
