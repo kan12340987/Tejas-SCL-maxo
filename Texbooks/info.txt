@@ -53,3 +53,11 @@ Branch: Computer Sciences and Information Technology
 Subject: Computer Sciences and Information Technology
 Publication Year: 2012
 Link: 
+
+#9
+Title:Structure and Interpretation of Computer Programs - 2nd Edition
+Author: Harold Abelson, Gerald Jay Sussman
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology, Electrical Engineering
+Publication Year: 1979
+Link:
