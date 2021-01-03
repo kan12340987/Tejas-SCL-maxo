@@ -61,3 +61,11 @@ Branch: Computer Sciences and Information Technology
 Subject: Computer Sciences and Information Technology, Electrical Engineering
 Publication Year: 1979
 Link:
+
+#10
+Title:Automate the Boring Stuff with Python (textbook)
+Author:Al Sweigart
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year: 2015
+Link:
