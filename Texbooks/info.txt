@@ -13,3 +13,11 @@ Branch: Computer Sciences and Information Technology
 Subject: Computer Sciences and Information Technology
 Publication Year: 2018
 Link:
+
+#3
+Title:Computational Science and Engineering 
+Author:Gilbert Strang
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year: 2007
+Link:
