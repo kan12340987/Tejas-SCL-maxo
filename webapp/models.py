@@ -17,9 +17,9 @@ class Texbook(models.Model):
 class QPapers(models.Model):
     Branch = models.CharField(default = '', max_length=50)
     Subject = models.CharField(default='', max_length=50)
-    year = models.IntegerField(default = 2021)
+    year = models.IntegerField(default= 1)
     Semester = models.IntegerField(default= 1)
-    college = models.CharField(default = '', max_length=100)
+    college = models.TextField(default = '', max_length=100)
     link = models.URLField(default='')
 
 class notes(models.Model):
@@ -27,5 +27,5 @@ class notes(models.Model):
     Subject = models.CharField(default='', max_length=50)
     year = models.IntegerField(default = 2021)
     Semester = models.IntegerField(default= 1)
-    college = models.CharField(default = '', max_length=50)   
+    college = models.TextField(default = '')   
     link = models.URLField(default='')
