@@ -26,7 +26,10 @@ def questionpapers(request):
 
 @login_required
 def textbook(request):
-    return render(request, 'TextbookSecondary.html')
+    context = {
+        'textbook': Texbook.objects.all()
+    }
+    return render(request, 'TextbookSecondary.html',context)
 
 @login_required
 def landingpage(request):
