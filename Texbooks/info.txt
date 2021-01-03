@@ -37,3 +37,11 @@ Branch: Computer Sciences and Information Technology
 Subject: Computer Sciences and Information Technology
 Publication Year:2019
 Link:
+
+#7
+Title:Linear Algebra for Computational Sciences and Engineering
+Author:Ferrante Neri
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year: 2016
+Link:
