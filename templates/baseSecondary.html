@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untit</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:300,400">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+    <link rel="stylesheet" href="{% static 'css/fontawesome-all.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/typicons.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/fontawesome5-overrides.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/NavBar.css'%}">
+    <link rel="stylesheet" href="{%static 'css/Animated-Typing-With-Blinking.css'%}">
+    <link rel="stylesheet" href="{% static 'css/button-haja.css'%}">
+    <link rel="stylesheet" href="{% static 'css/Button-Outlines---Pretty.css'%}">
+    <link rel="stylesheet" href="{% static 'css/Data-Table.css'%}">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.quilljs.com/1.0.0/quill.snow.css">
+    <link rel="stylesheet" href="{% static 'css/Pulse-Button-on-Hover.css'%}">
+    <link rel="stylesheet" href="{% static 'css/Search-Input-responsive.css'%}">
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}">
+    <link rel="stylesheet" href="{% static 'css/Team-with-rotating-cards.css'%}">
+    {% block head %}<title>Untit</title>{% endblock %}
+</head>
+
+<body style="color: rgb(255,255,255);">
+    <div>
+        <header>
+            <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white transparency border-bottom border-light" id="transmenu">
+                <div class="container"><button class="navbar-toggler collapsed" data-toggle="collapse"><span></span><span></span><span></span></button></div>
+            </nav>
+        </header>
+    </div><div style="height: 100px;" ></div>
+    {% block content %}{% endblock %}
+    <header class="bg-success d-flex align-items-center" style="height: 0vh;color: rgb(56,100,143);background: rgb(26,73,238);">
+        <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white transparency border-bottom border-light" id="transmenu-1">
+            <div class="container"><a class="navbar-brand text-success" href="{% url 'Users-Homepage' %}" style="border-left-color: rgb(115,26,26);"><i class="fa fa-leaf fa-2x"></i><strong>Note</strong>Repo</a><button data-toggle="collapse" class="navbar-toggler collapsed" data-target="#navcol-1"><span></span><span></span><span></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-about' %}">About us</a></li>
+                        <li class="nav-item"></li>
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Resources</a>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="{% url 'Users-Notebook' %}">Notebooks</a><a class="dropdown-item" href="{% url 'Users-Textbook' %}">Textbooks</a><a class="dropdown-item" href="{% url 'Users-Papers' %}">Question Papers</a></div>
+                        </li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-profile' %}">Profile&nbsp;<i class="far fa-user"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div></div>
+    </header>><button class="btn btn-light btn-lg" style="border: none;text-shadow: none;background: #008000;width: 140px;height: 50px;margin-left: 18px;color: var(--light);" type="button">Discover&nbsp;<i class="typcn typcn-news"></i></button><button class="btn btn-light btn-lg" style="border: none;text-shadow: none;background: green;width: 140px;height: 50px;margin-left: 18px;color: var(--light);" type="button">Add&nbsp; &nbsp;<i class="fa fa-plus"></i>&nbsp;</button>
+    {% block list %}{% endblock %}
+    <div class="float-left float-md-right mt-5 mt-md-0 search-area"><i class="fas fa-search float-left search-icon"></i></div>
+    <div class="float-left float-md-right mt-5 mt-md-0 search-area"><i class="fas fa-search float-left search-icon"></i></div>
+    <script src="{% static 'js/jquery.min.js'%}"></script>
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdn.quilljs.com/1.0.0/quill.js"></script>
+    <script src="{% static 'js/Quill-Text-Editor.js'%}"></script>
+    <script src="{% static 'js/-Fixed-Navbar-start-with-transparency-background-BS4-.js'%}"></script>
+    <script src="{% static 'js/Animated-Typing-With-Blinking.js'%}"></script>
+</body>
+
+</html>
