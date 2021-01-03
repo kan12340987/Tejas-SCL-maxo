@@ -1,3 +1,12 @@
+
+#1
+Title: Algorithms
+Author: Sanjoy Dasgupta, Christos Papadimitriou, Umesh Vazirani
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year: 2006
+Link: 
+
 #1
 Title: Algorithms
 Author: Sanjoy Dasgupta, Christos Papadimitriou, Umesh Vazirani
