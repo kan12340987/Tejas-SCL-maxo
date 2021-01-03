@@ -45,3 +45,11 @@ Branch: Computer Sciences and Information Technology
 Subject: Computer Sciences and Information Technology
 Publication Year: 2016
 Link:
+
+#8
+Title:Programming in C++ for Engineering and Science
+Author: Nyhoff, Larry
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year: 2012
+Link: 
