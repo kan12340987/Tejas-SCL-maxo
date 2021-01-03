@@ -25,11 +25,12 @@
             <td>{{ forloop.counter }}</td>
             <td>{{ paper.Branch }}</td>
             <td>{{ paper.Subject }}</td>
-            <td>{{ paper.Year }}</td>
+            <td>{{ paper.year }}</td>
             <td>{{ paper.Semester }}</td>
-            <td>{{ paper.College }}</td>
+            <td>{{ paper.college }}</td>
             <td><a href={{ paper.link }}>Download</a></td>
         </tr>
+        {{ paper.Semester }
     {% endfor %}
 </tbody>
 </table><i class="fa fa-star"></i>
