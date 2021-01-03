@@ -42,13 +42,11 @@
     <!-- Start: background + text -->
     <header class="bg-success d-flex align-items-center" style="height: 0vh;color: rgb(56,100,143);background: rgb(26,73,238);">
         <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white transparency border-bottom border-light" id="transmenu-1">
-            <div class="container"><a class="navbar-brand text-success" href="#header" style="border-left-color: rgb(115,26,26);"><i class="fa fa-leaf fa-2x"></i><strong>Note</strong>Repo</a><button data-toggle="collapse" class="navbar-toggler collapsed" data-target="#navcol-1"><span></span><span></span><span></span></button>
+            <div class="container"><a class="navbar-brand text-success" href="{% url 'Users-Homepage' %}" style="border-left-color: rgb(115,26,26);"><i class="fa fa-leaf fa-2x"></i><strong>Note</strong>Repo</a><button data-toggle="collapse" class="navbar-toggler collapsed" data-target="#navcol-1"><span></span><span></span><span></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="{% url 'Users-about' %}">About us</a></li>
-                        <li class="nav-item"></li>
-                        </li> 
                         <li class="nav-item"></li>
                         <li class="nav-item"><a class="nav-link" href="{% url 'Users-profile' %}">Profile&nbsp;<i class="far fa-user"></i></a></li>
                     </ul>
@@ -66,12 +64,12 @@
     {% endif %}
     <!-- Start: Pulse Button on Hover --><div>
 <div>
-<a style="background-color: green;" href="#" class="pulseBtn"><i class="fas fa-sticky-note"></i> Notes</a>
+<a style="background-color: green;" href="{% url 'Users-Notebook' %}" class="pulseBtn"><i class="fas fa-sticky-note"></i> Notes</a>
 </div>
-<a style="background-color: green;" href="#" class="pulseBtn"><i class="fas fa-book"></i> References</a>
+<a style="background-color: green;" href="{% url 'Users-Textbook' %}" class="pulseBtn"><i class="fas fa-book"></i> References</a>
 </div><!-- End: Pulse Button on Hover -->
     <!-- Start: Pulse Button on Hover --><div>
-<a style="background-color: green;" href="#" class="pulseBtn"><i class="fas fa-question"></i> Papers</a>
+<a style="background-color: green;" href="{% url 'Users-Papers' %}" class="pulseBtn"><i class="fas fa-question"></i> Papers</a>
 </div><!-- End: Pulse Button on Hover -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
