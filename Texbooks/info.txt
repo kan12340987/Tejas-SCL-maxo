@@ -29,3 +29,11 @@ Branch: Computer Sciences and Information Technology
 Subject: Computer Sciences and Information Technology
 Publication Year: 1991
 Link:
+
+#5
+Title:Introduction to Python for Science and Engineering
+Author: David J. Pine
+Branch: Computer Sciences and Information Technology
+Subject: Computer Sciences and Information Technology
+Publication Year:2019
+Link:
