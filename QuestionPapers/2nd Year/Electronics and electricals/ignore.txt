@@ -1,7 +1,47 @@
 #1
 Branch: Electronics and communication
 Subject: Network analysis and synthesis(NAS)
-Year: II
-Semester: III
+Year: 2020
+Semester: 3
 College: PES University
 link: https://drive.google.com/file/d/1VcxMQt_aR9mbXA_WccEviKiZY9gAj0fs/view?usp=sharing
+
+#2
+Branch: Electronics and communication
+Subject: Network analysis and synthesis(NAS)
+Year: 2018
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1nag4upeicpp8fRrMKjxXbq2hN1HnHgpe/view?usp=sharing
+
+#3
+Branch: Electronics and communication
+Subject: Network analysis and synthesis(NAS)
+Year: 2016
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1hGM6-lla3Jjk04ZQS2qxtTkJl0b7WNhI/view?usp=sharing
+
+#4
+Branch: Electronics and communication
+Subject: Network analysis and synthesis(NAS)
+Year: 2015
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1fhWJDQt_pTmBj1UzQ_7aBKfadI8-Zr4n/view?usp=sharing
+
+#5
+Branch: Electronics and communication
+Subject: Network analysis and synthesis(NAS)
+Year: 2017
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1HdtT6TBK8Wa9Gwe71iONFyEca5WEaM0m/view?usp=sharing
+
+#6
+Branch: Electronics and communication
+Subject: Network analysis and synthesis(NAS)
+Year: 2019
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/10mKpSx-DbNNezQRk8y_OnCAWKJdtI-k3/view?usp=sharing
