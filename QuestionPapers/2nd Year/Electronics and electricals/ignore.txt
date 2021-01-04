@@ -45,3 +45,43 @@ Year: 2019
 Semester: 3
 College: PES University
 link: https://drive.google.com/file/d/10mKpSx-DbNNezQRk8y_OnCAWKJdtI-k3/view?usp=sharing
+
+#7
+Branch: Electronics and communication
+Subject: Computer Organisation and Digital Design
+Year: 2017
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1EhGUejRTBhjsIP1XNJ-g7YNsWUX2SXDo/view?usp=sharing
+
+#8
+Branch: Electronics and communication
+Subject: Computer Organisation and Digital Design
+Year: 2018
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/14VqixgE3vNI89X35cfkLPKvgHPPfIudn/view?usp=sharing
+
+#9
+Branch: Electronics and communication
+Subject: Computer Organisation and Digital Design
+Year: 2018
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1L88zYJ6y3_RrMF2MnWQrLw6getCSYpFv/view?usp=sharing
+
+#10
+Branch: Electronics and communication
+Subject: Computer Organisation and Digital Design
+Year: 2020
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1WVSsO_sMoaYc1hawhT1RO05U20KGqi-n/view?usp=sharing
+
+#11
+Branch: Electronics and communication
+Subject: Computer Organisation and Digital Design
+Year: 2020
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1UFXX_4OjQarub-NSsqJzCOMWuRamJcFb/view?usp=sharing
