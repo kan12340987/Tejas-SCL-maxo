@@ -45,3 +45,67 @@ Year: 2016
 Semester: 3
 College: PES University
 link: https://drive.google.com/file/d/1I886yicG38UaMHx4SxaREz2pIIGdesGu/view?usp=sharing
+
+#7
+Branch: Mechanical Engineering
+Subject: Automobile engineering
+Year: 2016
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1-257E-o0dq3Jl3gXkuchBSco4EJhnZwY/view?usp=sharing
+
+#8
+Branch: Mechanical Engineering
+Subject: Engineering mechanics dynamics
+Year: 2018
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1e_M8jdzJLUro6Uz8IJQzWhsn6KjXEouq/view?usp=sharing
+
+#9
+Branch: Mechanical Engineering
+Subject: Engineering mechanics dynamics
+Year: 2018
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1-257E-o0dq3Jl3gXkuchBSco4EJhnZwY/view?usp=sharing
+
+#10
+Branch: Mechanical Engineering
+Subject: Engineering mechanics dynamics
+Year: 2017
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1cajSDgxZETjSy8gxXZE0aJ82ZvjKm1Nd/view?usp=sharing
+
+#11
+Branch: Mechanical Engineering
+Subject: Engineering Thermodynamics
+Year: 2020
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1h2Yu0ew3WpZgkxwSFDSYgsWRBTgILuOz/view?usp=sharing
+
+#12
+Branch: Mechanical Engineering
+Subject: Engineering thermodynamics
+Year: 2018
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1pxBeePB9LmLUO0gBgz1AzOcQcqFDU1rK/view?usp=sharing
+
+#13
+Branch: Mechanical Engineering
+Subject: Engineering thermodynamics
+Year: 2015
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1z-kNX7HtjMp_sfjNLQ8cxAC4fqQyKoCB/view?usp=sharing
+
+#14
+Branch: Mechanical Engineering
+Subject: Engineering thermodynamics
+Year: 2016
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1anpOvLJQXnKFCN4ukqINgg84aqLtzr0-/view?usp=sharing
