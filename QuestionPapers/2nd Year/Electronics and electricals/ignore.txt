@@ -85,3 +85,83 @@ Year: 2020
 Semester: 3
 College: PES University
 link: https://drive.google.com/file/d/1UFXX_4OjQarub-NSsqJzCOMWuRamJcFb/view?usp=sharing
+
+#12
+Branch: Electronics and communication
+Subject: Digital signal processing(DSP)
+Year: 2018
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1rNNjYEJ-Cd3ciyZa9WDu22_SVFqWebZt/view?usp=sharing
+
+#13
+Branch: Electronics and communication
+Subject: DSP
+Year: 2019
+Semester: 4
+College: PES University
+link:https://drive.google.com/file/d/1rIFpXjg004x61xpTrz-qaLB38czIii-3/view?usp=sharing
+
+#14
+Branch: Electronics and communication
+Subject: DSP
+Year: 2019
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1j19sqgHndvxi-QWyt_aPGtlomLKWMVEQ/view?usp=sharing
+
+#15
+Branch: Electronics and communication
+Subject: DSP
+Year: 2017
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1WmUNWWWxB3k9E8gJTN3v8rwRerh_OqPN/view?usp=sharing
+
+#16
+Branch: Electronics and communication
+Subject: Digital communication
+Year: 2014
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1sT1B1rxK_c-FMBMCsFuYanYpJzRd4Z5r/view?usp=sharing
+
+#17
+Branch: Electronics and communication
+Subject: Digital Communication
+Year: 2019
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1Z-tDiVhy0S23Vbrkj440wydEKkI8kmwE/view?usp=sharing
+
+#18
+Branch: Electronics and communication
+Subject: Electromagnetic Field Theory(EMFT)
+Year: 2015
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1Qc06eRYW8mtMT6dEttR4bvo1zXT5Dl8p/view?usp=sharing
+
+#19
+Branch: Electronics and communication
+Subject: Electromagnetic Field Theory(EMFT)
+Year: 2015
+Semester: 4
+College: PES University
+link:https://drive.google.com/file/d/1Qc06eRYW8mtMT6dEttR4bvo1zXT5Dl8p/view?usp=sharing
+
+#20
+Branch: Electronics and communication
+Subject: Electromagnetic Field Theory(EMFT)
+Year: 2016
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/19sAee1o-LugsX4eRlrsTLDKCJaZiSSVp/view?usp=sharing
+
+#21
+Branch: Electronics and communication
+Subject: Electromagnetic Field Theory(EMFT)
+Year: 2015
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1nkXyoCakdV8LQPGykPOpopPkaZOMjO5d/view?usp=sharing
