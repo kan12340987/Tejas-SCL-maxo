@@ -1,6 +1,9 @@
 asgiref==3.3.1
 Django==3.1.4
+django-social-auth==0.7.28
+httplib2==0.18.1
+oauth2==1.9.0.post1
 Pillow==8.0.1
+python-openid==2.2.5
 pytz==2020.4
 sqlparse==0.4.1
-psycopg2==2.8.6
