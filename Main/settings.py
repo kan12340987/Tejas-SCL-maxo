@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'social_django',
+
+
 ]
 
 MIDDLEWARE = [
@@ -49,6 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'social_django.middleware.SocialAuthExceptionMiddleware',
 ]
 
 ROOT_URLCONF = 'Main.urls'
@@ -64,10 +68,49 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'social_django.context_processors.backends',  # <-- Here
+                'social_django.context_processors.login_redirect', # <-- Here 
             ],
         },
     },
 ]
+AUTHENTICATION_BACKENDS = (
+    'social_core.backends.linkedin.LinkedinOAuth2',
+    'social_core.backends.facebook.FacebookOAuth2',
+    'social_core.backends.twitter.TwitterOAuth',
+    'social_core.backends.github.GithubOAuth2',
+    'social_core.backends.google.GoogleOAuth2',
+    
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+
+
+
+
+SOCIAL_AUTH_FACEBOOK_KEY = '4227417197288163'  # App ID
+SOCIAL_AUTH_FACEBOOK_SECRET = '8acd3368e65e0db2560c4d32878c5837'
+
+
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '157532831349-8tjlhngkdjh4l4l0pd1lr0n5g6lb6sfo.apps.googleusercontent.com'  # App ID
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'r0kG1Kogold5IsRgCoE3pX3m'
+
+
+SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY  = '86qlnzqoeqfd6y'
+SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET ='rrkWOX1KfiTo2hmz'
+
+
+SOCIAL_AUTH_TWITTER_KEY= '7pa31RhcmhXKnx2g0crlnf1Cy'
+SOCIAL_AUTH_TWITTER_SECRET= '2186gnzdijyLxeTWGISsABMIqd4nTNXyEFpTJpfmYEj99dgZAb'
+
+
+
+SOCIAL_AUTH_GITHUB_KEY= 'c4c502001ba6c80b9054'
+SOCIAL_AUTH_GITHUB_SECRET= '0af3611cc2a1eb7753e457d3e5295b41f17b137d'
+SOCIAL_AUTH_GITHUB_SCOPE = ['email']
+
+
 
 WSGI_APPLICATION = 'Main.wsgi.application'
 
@@ -101,6 +144,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+LOGIN_URL = 'login'
+LOGOUT_URL = 'logout'
+LOGIN_REDIRECT_URL = './Users-Homepage'
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
@@ -114,6 +161,10 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+
+
+
 
 
 # Static files (CSS, JavaScript, Images)
