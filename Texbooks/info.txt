@@ -87,10 +87,10 @@ Publication Year:2014
 Link: https://drive.google.com/file/d/1pBZV3PUGk7PKyF4JGAqSCIx-VZ13SLkK/view?usp=sharing
 
 #12
-Title:
-Author:
-Branch: 
-Subject: 
-Publication Year:
-Link: 
+Title: Applied Combinatorics
+Author:Alan Tucker
+Branch: computer Sciences and Information Technology 
+Subject: Mathematicss
+Publication Year:2014
+Link: https://drive.google.com/file/d/1uUPHij3JwqPrHgDC3-tw60kk5l5aEuz5/view?usp=sharing
 
