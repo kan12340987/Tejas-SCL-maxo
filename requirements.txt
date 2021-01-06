@@ -1,6 +1,7 @@
 asgiref==3.3.1
 Django==3.1.4
 django-social-auth==0.7.28
+gunicorn==20.0.4
 httplib2==0.18.1
 oauth2==1.9.0.post1
 Pillow==8.0.1
