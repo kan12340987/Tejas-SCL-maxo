@@ -33,11 +33,6 @@
             <div id="content">
                 <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
                     <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
-                        <form class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                            <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
-                                <div class="input-group-append"><button class="btn btn-primary py-0" type="button" style="background: rgb(0,128,0);"><i class="fas fa-search"></i></button></div>
-                            </div>
-                        </form>
                         <ul class="nav navbar-nav flex-nowrap ml-auto">
                             <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><i class="fas fa-search"></i></a>
                                 <div class="dropdown-menu dropdown-menu-right p-3 animated--grow-in" aria-labelledby="searchDropdown">
@@ -68,15 +63,13 @@
                 <div class="container-fluid">
                     <h3 class="text-dark mb-4">Profile</h3>
                     <div class="row mb-3">
-                        <div class="col-lg-4" data-aos="fade-right">
+                        <di class="col-lg-4" data-aos="fade-right">
                             <div class="card mb-3">
                                 <div class="card-body text-center shadow"><img class="rounded-circle mb-3 mt-4" src="{{ user.profile.image.url }}" width="160" height="160">
                                     <div class="mb-3"><button class="btn btn-primary btn-sm" type="button" style="background: rgb(0,128,0);">Change Photo</button></div>
                                 </div>
                             </div>
-                            <div class="card shadow mb-4"></div>
-                            <p style="font-size: 34px;">My Notes: 12<br><br>My References: 15<br><br>My Papers: 7</p>
-                        </div>
+                        </di>
                         <div class="col-lg-8">
                             <div class="row mb-3 d-none">
                                 <div class="col">
@@ -136,43 +129,6 @@
                                             </form>
                                         </div>
                                     </div>
-                                    <div class="card shadow">
-                                        <div class="card-header py-3">
-                                            <p class="text-primary m-0 font-weight-bold">Contact Settings</p>
-                                        </div>
-                                        <div class="card-body">
-                                            <form>
-                                                <div class="form-group"><label for="address"><strong>Address</strong></label><input class="form-control" type="text" placeholder="Sunset Blvd, 38" name="address"></div>
-                                                <div class="form-row">
-                                                    <div class="col">
-                                                        <div class="form-group"><label for="city"><strong>City</strong></label><input class="form-control" type="text" placeholder="Los Angeles" name="city"></div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="form-group"><label for="country"><strong>Country</strong></label><input class="form-control" type="text" placeholder="USA" name="country"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group"><button class="btn btn-primary btn-sm" type="submit" style="background: rgb(0,128,0);">Save&nbsp;Settings</button></div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card shadow mb-5" data-aos="fade-left">
-                        <div class="card-header py-3">
-                            <p class="text-primary m-0 font-weight-bold">Forum Settings</p>
-                        </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <form>
-                                        <div class="form-group"><label for="signature"><strong>Signature</strong><br></label><textarea class="form-control" rows="4" name="signature"></textarea></div>
-                                        <div class="form-group">
-                                            <div class="custom-control custom-switch"><input class="custom-control-input" type="checkbox" id="formCheck-1"><label class="custom-control-label" for="formCheck-1"><strong>Notify me about new replies</strong></label></div>
-                                        </div>
-                                        <div class="form-group"><button class="btn btn-primary btn-sm" type="submit" style="background: rgb(0,128,0);">Save Settings</button></div>
-                                    </form>
                                 </div>
                             </div>
                         </div>
