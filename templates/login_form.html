@@ -35,18 +35,19 @@
               {{ login_form.password }}
             </div>
             <input type="submit" value="Login" class="btn solid" />
-            <p class="social-text">Or Sign in with social platforms</p>
+            <p class="social-text">social platforms</p>
             <div class="social-media">
-              <a href="#" class="social-icon">
+              <a href="{% url 'social:begin' 'facebook' %}?next=/home" class="social-icon">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-twitter"></i>
+              <!--- urls of social media --->
+              <a href="{% url 'social:begin' 'github' %}?next=/home" class="social-icon">
+                <i class="fab fa-github"></i>
               </a>
-              <a href="#" class="social-icon">
+              <a href="{%  url 'social:begin' 'google-oauth2' %}?next=/home" class="social-icon">
                 <i class="fab fa-google"></i>
               </a>
-              <a href="#" class="social-icon">
+              <a href="{% url 'social:begin' 'linkedin-oauth2' %}?next=/home" class="social-icon">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
@@ -73,16 +74,16 @@
             <input type="submit" class="btn" value="Signup" />
             <p class="social-text">Or Sign up with social platforms</p>
             <div class="social-media">
-              <a href="#" class="social-icon">
+              <a href="{% url 'social:begin' 'facebook' %}?next=/home" class="social-icon">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-twitter"></i>
+              <a href="{% url 'social:begin' 'github' %}?next=/home" class="social-icon">
+                <i class="fab fa-github"></i>
               </a>
-              <a href="#" class="social-icon">
+              <a href="{% url 'social:begin' 'google-oauth2' %}?next=/home" class="social-icon">
                 <i class="fab fa-google"></i>
               </a>
-              <a href="#" class="social-icon">
+              <a href="{% url 'social:begin' 'linkedin-oauth2' %}?next=/home" class="social-icon">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
