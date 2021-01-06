@@ -94,3 +94,12 @@ Subject: Mathematicss
 Publication Year:2014
 Link: https://drive.google.com/file/d/1uUPHij3JwqPrHgDC3-tw60kk5l5aEuz5/view?usp=sharing
 
+
+#13
+Title: Data structure and Algorithem
+Author:Adam Drozdek
+Branch: computer Sciences and Information Technology 
+Subject: Data structures and Algorithem(DSa)
+Publication Year:2016
+Link: https://drive.google.com/file/d/1T4IJ1kU9-sen0TN2c4JSr9PX1xexFDxR/view?usp=sharing
+
