@@ -20,9 +20,6 @@ from django.contrib.auth import views as auth_views
 from django.conf import settings
 from django.conf.urls.static import static
 
-from django.views.static import serve
-from django.conf.urls import url
-
 
 
 
@@ -31,9 +28,6 @@ urlpatterns = [
     path('', include('webapp.urls')),
     path('login/', users_views.login, name="Users-login"),
     path('oauth/', include('social_django.urls', namespace='social')), #path of social login
-    #heroku
-    url(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}), 
-    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}), 
 ]
     
 ]
