@@ -1,1 +1,1 @@
-web: gunicorn noterepo.wsgi
+web: gunicorn Main.wsgi --log-file -
