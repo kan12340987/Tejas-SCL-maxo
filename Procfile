@@ -1,1 +1,1 @@
-web: gunicorn dep:noterepo
+web: gunicorn noterepo.wsgi
