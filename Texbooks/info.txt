@@ -139,3 +139,9 @@ Branch: Mechanical Engineering
 year: 2014
 link: https://drive.google.com/file/d/1YY1XiptFl2yga6gmCZ7YMJb3TdcuvctW/view?usp=sharing
 
+#19
+Title: Design of Machine Elements
+Author: Bhandari, V.B.
+Branch: Mechanical Engineering
+year: 2010
+link: https://drive.google.com/file/d/1M3LJxn9xcCVNMIW-kdCfqFWJWkP0Ocfj/view?usp=sharing
