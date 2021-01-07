@@ -96,10 +96,18 @@ Link: https://drive.google.com/file/d/1uUPHij3JwqPrHgDC3-tw60kk5l5aEuz5/view?usp
 
 
 #13
-Title: Data structure and Algorithem
+Title: Data structure and Algorithms
 Author:Adam Drozdek
 Branch: computer Sciences and Information Technology 
-Subject: Data structures and Algorithem(DSa)
+Subject: Data structures and Algorithms(DSA)
 Publication Year:2016
 Link: https://drive.google.com/file/d/1T4IJ1kU9-sen0TN2c4JSr9PX1xexFDxR/view?usp=sharing
+
+#14
+Title: Engineering Drawing (Plane and solid geometry)
+Author: N. D. Bhatt
+Branch: Mechanical Engineering
+Subject: Engineering Drawing
+Publication Year: 2014
+Link: https://drive.google.com/file/d/1ARJaccIF0k6I5eK94gjKFFy-AaGWp8_L/view?usp=sharing
 
