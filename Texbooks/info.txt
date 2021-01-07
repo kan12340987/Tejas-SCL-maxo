@@ -152,3 +152,10 @@ Author: V Ganesan
 Branch: Mechanical Engineering
 year: 2017
 link: https://drive.google.com/file/d/1Ryvr1kA8C3tFFNsy79BrVgCVF8Vi7O3s/view?usp=sharing
+
+#21
+Title: Material Science and Metallurgy
+Author: U. C. Jindal
+Branch: Mechanical Engineering
+year: 2012 
+link: https://drive.google.com/file/d/1UVyTU8UWlxPqUQn9VSeywP7O4ermLYQ6/view?usp=sharing
