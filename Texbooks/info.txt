@@ -111,3 +111,8 @@ Subject: Engineering Drawing
 Publication Year: 2014
 Link: https://drive.google.com/file/d/1ARJaccIF0k6I5eK94gjKFFy-AaGWp8_L/view?usp=sharing
 
+#15
+Title: Vector Mechanics for Engineers - Statics and Dynamics (12th Edition, SIE) 
+Author: Ferdinand P. Beer, E. Russell Johnston Jr., Phillip J. Cornwell
+Branch: Mechanical Engineering
+year: 2009
