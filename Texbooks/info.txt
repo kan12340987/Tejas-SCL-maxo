@@ -174,3 +174,9 @@ Branch: Mechanical Engineering
 year: 
 link: https://drive.google.com/file/d/1oTeWYUK6pf6Yo2VrGr5O3yb50u-aJq3l/view?usp=sharing
 
+#24
+Title: Higher engineering mathematics
+Author: Grewal B. S.
+Branch: Mechanical Engineering
+year: 2012
+link: https://drive.google.com/file/d/1Svrx2yVlYKeIlteK5WkXJAqiIokQqqQj/view?usp=sharing
