@@ -75,6 +75,7 @@ For further details, you can get in touch with the repo owner or contributors.
 
 1. Backend Framework: **Django**
 2. Front-end Framework: **Bootstrap**
+3. Database used: **Sqlite**
 
 <!-- Getting started -->
 
