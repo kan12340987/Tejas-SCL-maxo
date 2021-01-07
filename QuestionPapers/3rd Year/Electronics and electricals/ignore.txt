@@ -12,7 +12,7 @@ Subject: All subjects 2019
 Year: 2019
 Semester: 6
 College: NMAM Institute of Technology
-link:
+link: https://drive.google.com/file/d/1-mQ0I696IVK4tyWBwTYjwEpVKUB0gzpV/view?usp=sharing
 
 #3
 Branch: Electronics and Electrical 
