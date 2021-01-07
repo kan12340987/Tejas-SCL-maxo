@@ -29,7 +29,5 @@ urlpatterns = [
     path('login/', users_views.login, name="Users-login"),
     path('oauth/', include('social_django.urls', namespace='social')), #path of social login
 ]
-    
-]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
