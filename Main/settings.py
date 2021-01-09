@@ -23,9 +23,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'u+1nty8^qky#f^*(1mlb3*&yexub%97&x1h=337%wn-&p_ga7o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
+ALLOWED_HOSTS = []
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['127.0.0.1', 'noterepo.herokuapp.com']
+=======
+>>>>>>> 17ae3aa6cf41ba7ec9de29246e11f5363fe28dd3
 
 
 # Application definition
@@ -46,7 +50,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -109,7 +112,7 @@ SOCIAL_AUTH_TWITTER_SECRET= '2186gnzdijyLxeTWGISsABMIqd4nTNXyEFpTJpfmYEj99dgZAb'
 
 SOCIAL_AUTH_GITHUB_KEY= 'c4c502001ba6c80b9054'
 SOCIAL_AUTH_GITHUB_SECRET= '0af3611cc2a1eb7753e457d3e5295b41f17b137d'
-SOCIAL_AUTH_GITHUB_SCOPE = ['email']
+
 
 
 

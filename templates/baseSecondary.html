@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="{% static 'css/Button-Outlines---Pretty.css'%}">
     <link rel="stylesheet" href="{% static 'css/Data-Table.css'%}">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.quilljs.com/1.0.0/quill.snow.css">
     <link rel="stylesheet" href="{% static 'css/Pulse-Button-on-Hover.css'%}">
     <link rel="stylesheet" href="{% static 'css/Search-Input-responsive.css'%}">
     <link rel="stylesheet" href="{% static 'css/styles.css'%}">
@@ -43,7 +42,8 @@
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="{% url 'Users-about' %}">About us</a></li>
-                        <li class="nav-item"></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-Homepage' %}">Forums</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-Homepage' %}">Contact Us</a></li>
                         <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Resources</a>
                             <div class="dropdown-menu"><a class="dropdown-item" href="{% url 'Users-Notebook' %}">Notebooks</a><a class="dropdown-item" href="{% url 'Users-Textbook' %}">Textbooks</a><a class="dropdown-item" href="{% url 'Users-Papers' %}">Question Papers</a></div>
                         </li>

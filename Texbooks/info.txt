@@ -111,3 +111,72 @@ Subject: Engineering Drawing
 Publication Year: 2014
 Link: https://drive.google.com/file/d/1ARJaccIF0k6I5eK94gjKFFy-AaGWp8_L/view?usp=sharing
 
+#15
+Title: Vector Mechanics for Engineers - Statics and Dynamics (12th Edition, SIE) 
+Author: Ferdinand P. Beer, E. Russell Johnston Jr., Phillip J. Cornwell
+Branch: Mechanical Engineering
+year: 2009
+link: https://drive.google.com/file/d/1z3_X8n9yUrrqDdmKgKgy8qXepVFCMaGk/view?usp=sharing
+
+#16
+Title: Mechanics of Materials, 8th Edition
+Author: R. C. Hibbeler
+year: 2010
+Branch:Mechanical Engineering
+link: https://drive.google.com/file/d/17tPM3FraCgUpX_9gWWvlSwIaoOVz3cOW/view?usp=sharing
+
+#17
+Title: Fluid Mechanics Fundamentals and Applications
+Author: Yunus Çengel, John M. Cimbala
+Branch: Mechanical Engineering
+year: 2017
+link :https://drive.google.com/file/d/1LyAtfw9G5BC8qJwctUQV5Hq21yBuyPoq/view?usp=sharing
+
+#18
+Title: Theory of Machines
+Author: S S Rattan
+Branch: Mechanical Engineering
+year: 2014
+link: https://drive.google.com/file/d/1YY1XiptFl2yga6gmCZ7YMJb3TdcuvctW/view?usp=sharing
+
+#19
+Title: Design of Machine Elements
+Author: Bhandari, V.B.
+Branch: Mechanical Engineering
+year: 2010
+link: https://drive.google.com/file/d/1M3LJxn9xcCVNMIW-kdCfqFWJWkP0Ocfj/view?usp=sharing
+
+#20
+Title: INTERNAL COMBUSTION ENGINES
+Author: V Ganesan
+Branch: Mechanical Engineering
+year: 2017
+link: https://drive.google.com/file/d/1Ryvr1kA8C3tFFNsy79BrVgCVF8Vi7O3s/view?usp=sharing
+
+#21
+Title: Material Science and Metallurgy
+Author: U. C. Jindal
+Branch: Mechanical Engineering
+year: 2012 
+link: https://drive.google.com/file/d/1UVyTU8UWlxPqUQn9VSeywP7O4ermLYQ6/view?usp=sharing
+
+#22
+Title: Heat and mass transfer: fundamentals and applications
+Author: Yunus A. Çengel, Afshin J. Ghajar
+Branch: Mechanical Engineering
+year: 2015
+link:https://drive.google.com/file/d/1r50o4CLRvk7p42FDWJXQGw4k6X2ipKUm/view?usp=sharing
+
+#23
+Title: Refrigeration-and-air-conditioning
+Author: C-P-Arora
+Branch: Mechanical Engineering
+year: 
+link: https://drive.google.com/file/d/1oTeWYUK6pf6Yo2VrGr5O3yb50u-aJq3l/view?usp=sharing
+
+#24
+Title: Higher engineering mathematics
+Author: Grewal B. S.
+Branch: Mechanical Engineering
+year: 2012
+link: https://drive.google.com/file/d/1Svrx2yVlYKeIlteK5WkXJAqiIokQqqQj/view?usp=sharing
