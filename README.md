@@ -200,7 +200,7 @@ For further details, you can get in touch with the repo owner or contributors.
 
 You can create an account on NoteRepo by clicking on the ```Log In``` button on the top right corner of the Main Page
 
-<img src="media\ReadMe Screenshots\MainHomePage.png">
+<img src="media\ReadMe Screenshots\Login\MainHomePage.png">
 
 <br>
 <br>
@@ -210,7 +210,7 @@ You can create an account on NoteRepo by clicking on the ```Log In``` button on 
 
 Once in, you should see a ```Sign In``` screen. If you already have an account, you can Sign In directly from here. You can also Sign In through sites like ```Facebook```, ```GitHub```, ```Google``` or ```LinkedIn``` (Note: Some functions could still be under development) Else, you can click on the ```Sign Up``` button towards the left to Sign Up to NoteRepo.
 
-<img src="media\ReadMe Screenshots\SignInScreen.png">
+<img src="media\ReadMe Screenshots\Login\SignInScreen.png">
 
 <br>
 <br>
@@ -220,7 +220,7 @@ Once in, you should see a ```Sign In``` screen. If you already have an account, 
 
 Once in the ```Sign Up``` screen, you can fill in basic details like username and you E-Mail to sign up to NoteRepo. You can also Sign Up through sites like ```Facebook```, ```GitHub```, ```Google``` or ```LinkedIn``` (Note: Some functions could still be under development)
 
-<img src="media\ReadMe Screenshots\SignUpScreen.png">
+<img src="media\ReadMe Screenshots\Login\SignUpScreen.png">
 
 <br>
 
@@ -230,7 +230,7 @@ Once in the ```Sign Up``` screen, you can fill in basic details like username an
 
 Once Logged in, you should be seeing the following landing page. If you do not however, try logging in again.
 
-<img src="media\ReadMe Screenshots\HomePage.png">
+<img src="media\ReadMe Screenshots\Login\HomePage.png">
 
 <br>
 <br>
@@ -240,18 +240,18 @@ Once Logged in, you should be seeing the following landing page. If you do not h
 
 To log out, click on the the ```Profile``` option on the Navigation Bar towards the top right.
 <br>
-<img src="media\ReadMe Screenshots\HomePage2.png">
+<img src="media\ReadMe Screenshots\Login\HomePage2.png">
 <br>
 <br>
 
 This will open up the profile section. From here click on your username on the top right.
 <br>
-<img src="media\ReadMe Screenshots\ProfileSection.png">
+<img src="media\ReadMe Screenshots\Login\ProfileSection.png">
 <br>
 <br>
 From the drop-down menu, click on Logout. This should log you out and take you make to the Home Page.
 
-<img src="media\ReadMe Screenshots\LogOutDropdown.png">
+<img src="media\ReadMe Screenshots\Login\LogOutDropdown.png">
 
 
 
