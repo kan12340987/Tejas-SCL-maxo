@@ -16,7 +16,7 @@
     <a href="#documentation"><strong>Documentation</strong></a>
     <br />
     <br />
-    <a href="https://noterepo.herokuapp.com/">View a Live Demo</a>
+    <a href="https://noterepo.herokuapp.com/" target="blank_">View a Live Demo</a>
     · 
     <a href="https://github.com/kan12340987/Tejas-SCL-maxo/issues/new">Report a Bug</a>
     ·
