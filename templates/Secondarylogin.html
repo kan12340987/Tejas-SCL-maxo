@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="{% static 'css/NavBar.css'%}">
     <link rel="stylesheet" href="css/Pulse-Button-on-Hover-1.css">
     <link rel="stylesheet" href="{% static 'css/Pulse-Button-on-Hover.css'%}">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}">
     <script src="https://kit.fontawesome.com/3aa31213fd.js" crossorigin="anonymous"></script>
 </head>
 
@@ -45,11 +45,11 @@
             <div class="container"><a class="navbar-brand text-success" href="{% url 'Users-Homepage' %}" style="border-left-color: rgb(115,26,26);"><i class="fa fa-leaf fa-2x"></i><strong>Note</strong>Repo</a><button data-toggle="collapse" class="navbar-toggler collapsed" data-target="#navcol-1"><span></span><span></span><span></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-about' %}">About us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-Homepage' %}">Forums</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-Homepage' %}">Contact Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-profile' %}">Profile&nbsp;<i class="far fa-user"></i></a></li>
+                        <li id="navbarCustom" class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home&nbsp&nbsp&nbsp</a></li>
+                        <li id="navbarCustom" class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-about' %}">About us&nbsp&nbsp&nbsp</a></li>
+                        <li id="navbarCustom" class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Forums&nbsp&nbsp&nbsp</a></li>
+                        <li id="navbarCustom" class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Contact Us&nbsp&nbsp&nbsp</a></li>
+                        <li id="navbarCustom" class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-profile' %}">Profile&nbsp&nbsp&nbsp<i class="far fa-user"></i></a></li>
                     </ul>
                 </div>
             </div>

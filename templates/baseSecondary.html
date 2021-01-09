@@ -33,17 +33,18 @@
 </head>
 <style>
  #bts{
-    background-color: red;
+    background-color: green;
     width: 140px;
     padding: 10px;
     margin: 10px 20px;
     align-items: center;
+    color: white;
  }
 
 #navbarCustom{
   color: #ffffff;
    background-color:green;
-   border:1px solid black;
+   {% comment %} border:1px solid black; {% endcomment %}
    border-radius: 20px;
    width: 100px;
    text-align: center;
@@ -107,7 +108,7 @@ only screen and (max-width: 760px),
                             <div class="dropdown-menu"><a class="dropdown-item" href="{% url 'Users-Notebook' %}">Notebooks</a><a class="dropdown-item" href="{% url 'Users-Textbook' %}">Textbooks</a><a class="dropdown-item" href="{% url 'Users-Papers' %}">Question Papers</a></div>
                         </li>
                         <li class="nav-item"></li>
-                        <li class="nav-item"><a   class="nav-link" href="{% url 'Users-profile' %}">Profile👤&nbsp;</a></li>
+                        <li class="nav-item"><a  id="navbarCustom" class="nav-link" href="{% url 'Users-profile' %}">Profile👤&nbsp;</a></li>
                     </ul>
                 </div>
             </div>
