@@ -13,10 +13,10 @@
   <p align="center">
     All your Cheatsheets, Reference Books and Practice Papers, at One Place!
     <br />
-    <a href="https://github.com/kan12340987/Tejas-SCL-maxo/blob/main/README.md"><strong>Documentation</strong></a>
+    <a href="#documentation"><strong>Documentation</strong></a>
     <br />
     <br />
-    <a href="#">View a Live Demo</a>
+    <a href="https://noterepo.herokuapp.com/">View a Live Demo</a>
     · 
     <a href="https://github.com/kan12340987/Tejas-SCL-maxo/issues/new">Report a Bug</a>
     ·
