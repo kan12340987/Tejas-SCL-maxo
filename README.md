@@ -146,3 +146,84 @@ For further details, you can get in touch with the repo owner or contributors.
 
 ## Contributing
    Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change in the project.
+
+<br>
+<br>
+<br>
+<br>
+
+# Documentation
+
+<br>
+<br>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#logging-in">Logging In</a>
+      <ul>
+        <li><a href="#creating-an-account">Creating an account</a></li>
+        <li><a href="#logging-options">Logging options</a></li>
+        <li><a href="#logging-in-after-sign-up">Logging in after Sign Up</a></li>
+        <li><a href="#log-out">Log out</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#utility">Utility </a>
+      <ul>
+        <li><a href="#the-home-page">The Home page</a></li>
+        <li><a href="#utility-options">Utility Options</a></li>
+        <li><a href="#forums">Forums</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
+        <li><a href="#profile-section">Profile Section</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#admin-only-section">Admin only Section</a>
+      <ul>
+        <li><a href="#adding-new-users">Adding New Users</a></li>
+        <li><a href="#adding-resources">Adding resources</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
+<br>
+<br>
+
+## Logging In
+<br>
+
+### Creating an account
+
+1. 
+
+
+
+
+### Logging options
+### Logging in after Sign Up
+### Log out
+
+<br>
+<br>
+
+## Utility 
+<br>
+
+### The Home page
+### Utility Options
+### Forums 
+### Contact Us
+### Profile Section
+
+<br>
+<br>
+
+## Admin only Section 
+<br>
+
+### Adding New Users
+### Adding resources
+
