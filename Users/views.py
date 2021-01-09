@@ -2,12 +2,13 @@ from django.shortcuts import render, redirect
 from django.contrib import messages
 import Users.forms
 from webapp import views as web_views
-from .forms import SignUpForm
+from .forms import SignUpForm, UserUpdateFrom, ProfileUpdateForm, NameForm
 from django.contrib.auth import authenticate, logout
 from django.contrib.auth import login as auth_login
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
+from .models import Profile
 
 # Create your views here.
 
@@ -19,7 +20,8 @@ def login(request):
 
             if signupform.is_valid():
                 signupform.save()
-                return redirect('Users-Homepage')
+                messages.success(request, f'You have created an account. Please login!')                
+                return redirect('Users-login')
 
             elif login_form.is_valid():
                 user_cred = request.POST['username']
@@ -58,4 +60,31 @@ def dashboard(request):
 
 @login_required
 def profile(request):
-    return render(request, 'profile.html')
+    if request.method == 'POST':
+        u_form = UserUpdateFrom(request.POST, instance=request.user)
+        p_form = ProfileUpdateForm(request.POST, request.FILES, instance=request.user.profile)
+        n_form = NameForm(request.POST, instance=request.user)
+        if u_form.is_valid(): 
+            u_form.save()
+            return redirect('Users-profile')
+
+        if n_form.is_valid():
+            n_form.save()
+            return redirect('Users-profile')
+
+        elif p_form.is_valid():
+            print("hello")
+            p_form.save()
+            return redirect('Users-profile')
+
+
+    else:
+        u_form = UserUpdateFrom(instance=request.user)
+        p_form = ProfileUpdateForm(instance=request.user.profile) 
+        n_form = NameForm(instance=request.user)      
+    context = {
+        'u_form': u_form,
+        'p_form': p_form,
+        'n_form' : n_form,
+    }
+    return render(request, 'profile.html', context)
