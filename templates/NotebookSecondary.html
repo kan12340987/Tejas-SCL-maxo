@@ -5,7 +5,61 @@
  <script src="https://use.fontawesome.com/7cfb11645c.js"></script>
  {% endblock head%}
     {% block content %}
-    <form style="float:right;"class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+
+    <style>
+    .container1{
+        width: fit-content(20em);
+
+    }
+    
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr { 
+        display: block; 
+    }
+    
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr { 
+       /* position: absolute;
+        width: fit-content;
+        top: 230px;*/
+        display: flex;
+        flex-direction:row;
+        width: fit-content;
+        
+        flex: 100%;
+        
+       
+    }
+    
+    tr { border: 2px solid black; }
+    
+    td { 
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid black; 
+        position: relative;
+        padding-left: 50%; 
+    }
+    
+    td:before { 
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+    }
+}
+
+
+    </style>
+    <form style="float:right;"class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search"  >
                             <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
                                 <div class="input-group-append"><button class="btn btn-primary py-0" type="button" style="background: rgb(0,128,0);">🔍</button></div>
                             </div>
@@ -13,16 +67,17 @@
     {% endblock content %}
 
     {% block list %}
-    <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+    <div class="container1">
+    <table  style="overflow-x:auto;" id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
       <thead>
          <tr>
-             <th>Sr No.</th>
+             <th>Sr No 1.</th>
              <th>Branch</th>
              <th>Subject</th>
              <th>Year</th>
              <th>Semester</th>
              <th>College</th>
-             <th>Download</th>
+             <th>Downloading</th>
          </tr>
      </thead>
     {% for Note in notes %}
@@ -38,4 +93,11 @@
 {% endfor %}
     </tbody>
     </table><i class="fa fa-star"></i>
+</div>
+
     {% endblock list %}
+
+
+
+
+
