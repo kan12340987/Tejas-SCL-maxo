@@ -19,12 +19,9 @@ from Users import views as users_views
 from django.contrib.auth import views as auth_views
 from django.conf import settings
 from django.conf.urls.static import static
-<<<<<<< HEAD
 #heroku
 from django.views.static import serve
 from django.conf.urls import url
-=======
->>>>>>> 17ae3aa6cf41ba7ec9de29246e11f5363fe28dd3
 
 
 
@@ -34,12 +31,9 @@ urlpatterns = [
     path('', include('webapp.urls')),
     path('login/', users_views.login, name="Users-login"),
     path('oauth/', include('social_django.urls', namespace='social')), #path of social login
-<<<<<<< HEAD
     #heroku
     url(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}), 
     url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}), 
-=======
->>>>>>> 17ae3aa6cf41ba7ec9de29246e11f5363fe28dd3
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
