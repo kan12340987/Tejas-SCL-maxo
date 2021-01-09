@@ -1,6 +1,6 @@
 # Tejas-SCL-maxo
 <!-- Logos -->
-<br />
+<br>
 <p align="center">
   <a href="https://github.com/kan12340987/Tejas-SCL-maxo/blob/main/README.md">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" alt="Logo" width="80" height="80"> &nbsp;
@@ -262,17 +262,165 @@ From the drop-down menu, click on Logout. This should log you out and take you m
 <br>
 
 ### The Home page
+<br>
+
+Once logged in, the landing page will the first thing you will see. This is the hub of the website which includes various option.
+<br>
+<br>
+
+<img src="media\ReadMe Screenshots\Utilities\HomePage2.png">
+<br>
+<br>
+
+
 ### Utility Options
+
+**Navigation Bar**
+<ul>
+<li>Home - Takes you to the Home Page(current page)</li>
+<br>
+<br>
+<li>About Us - Takes us to the about us section of the page</li>
+<br>
+<img src="media\ReadMe Screenshots\Utilities\AboutUs.png">
+<br>
+<br>
+<li>Forums - Takes you the forum section of the page (under development)</li>
+<br>
+
+**```This Feature is currently under Development```**
+<br>
+<br>
+<li>Contact Us - To send us a message</li>
+<br>
+
+**```This Feature is currently under Development```**
+<br>
+<br>
+<li>Profile - Takes you to the profile section</li>
+<br>
+<img src="media\ReadMe Screenshots\Utilities\Profile.png">
+<br>
+<br>
+</ul>
+
+
+**Main Page**
+<ul>
+<li>Notes - Takes you to the Cheatsheets/Notes section</li>
+<br>
+<img src="media\ReadMe Screenshots\Utilities\Cheatsheets.png">
+<br>
+<br>
+<li>References - Takes you to the References/textbooks section</li>
+<br>
+<img src="media\ReadMe Screenshots\Utilities\References.png">
+<br>
+<br>
+<li>Papers - takes you to the Question papers section</li>
+<br>
+<img src="media\ReadMe Screenshots\Utilities\Papers.png">
+<br>
+<br>
+</ul>
+
+**You can View and Download any of the listed books by clicking on ```Download```. The links will take you to Google PDF Links and all options provided by Google PDF viewer will be available (requires you to login to you Google account)**
+
+1. The search function is currently under development.
+2. The add button is currently under development.
+
+<br>
+<br>
+
 ### Forums 
+**```This Feature is currently under Development```**
+
+<br>
+<br>
+
 ### Contact Us
+**```This Feature is currently under Development```**
+
+<br>
+<br>
+
 ### Profile Section
+<br>
+
+**In this section, the user will be able to add details about himself. All of this data is kept private and not shared with anyone.**
+<br>
+
+<img src="media\ReadMe Screenshots\Utilities\Profile.png">
 
 <br>
 <br>
 
-## Admin only Section 
+## Admin Only Section 
+<br>
+
+**This section requires superuser status or staff user permission to be accessed. to know more, visit the Creating a super user section in the <a href="#development">Development</a> tab above.**
+
+**After this you can visit the admin section by adding ```admin``` to the end of the url after host**
+eg: 127.0.0.1:8080/admin
+
+<img src="media\ReadMe Screenshots\Admin\Admin.png">
+
+<br>
 <br>
 
 ### Adding New Users
+<br>
+There are two way of adding users.
+<ol>
+<li>Through the normal Sign In page. This directly adds users to the admin section </li>
+<li>Adding users through the admin section:
+
+<ol> 
+<li>Go to the admin section by following the instructions above.</li>
+<br>
+<img src="media\ReadMe Screenshots\Admin\Admin.png">
+<br>
+<br>
+<li>Select the users section on the left then select add users on the top right</li>
+<br>
+<img src="media\ReadMe Screenshots\Admin\AdminUsers.png ">
+<br>
+<br>
+<li>Here you can add details of the user and they will be registered as a user.</li> 
+<br>
+<img src="media\ReadMe Screenshots\Admin\AdminUsers.png ">
+<br>
+<br>
+</ol>
+</li>
+</ol>
+
 ### Adding resources
 
+**Adding resources like Cheatsheets, Reference books and question papers can only be done by ```Super Users``` or users with ```Staff Status``` and via the Admin section. Refer details about Admin section and Creating a super user above.**
+
+<ol>
+<li>Visit the Admin section</li>
+<br>
+<img src="media\ReadMe Screenshots\Resouces\Admin.png">
+<br>
+<br>
+<li> Choose any of the options from Q Papers, Notes, Textbooks</li>
+<br>
+<img src="media\ReadMe Screenshots\Resouces\AdminNotes.png">
+<br>
+<br>
+<li>Once selected, you will be presented with a form of details to fill for each of the 3 addable resources, you can fill these up and this, will add a new addab;e to the table.</li>
+<br>
+<img src="media\ReadMe Screenshots\Resouces\AdminNotesEditor.png">
+<br>
+<br>
+<br>
+<img src="media\ReadMe Screenshots\Resouces\QPpapersEditor.png">
+<br>
+<br>
+<br>
+<img src="media\ReadMe Screenshots\Resouces\TextbooksEditor.png">
+<br>
+<br>
+</ol>
