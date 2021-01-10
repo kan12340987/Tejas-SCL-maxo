@@ -24,4 +24,4 @@ Subject: Basics of Electrical engineering
 Year: 2016
 Semester: 1
 College: PES University
-link: 
+link: https://drive.google.com/file/d/1cZ7OtZNfmHlEImCtVxTqFN6XZEoWA6Fi/view?usp=sharing
