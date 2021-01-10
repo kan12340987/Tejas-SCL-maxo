@@ -12,5 +12,13 @@ Subject: Web Technology and its applications
 Year: 2018-2019
 Semester: 7
 University: VTU
-link: https:https://drive.google.com/file/d/1detBaXGs8G1b4iN7Wz3RLX_ZClK7dUI7/view?usp=sharing
+link: https://drive.google.com/file/d/1detBaXGs8G1b4iN7Wz3RLX_ZClK7dUI7/view?usp=sharing
+
+#3
+Branch: Computer Science Engineering
+Subject: Data analytics
+Year: 2018-2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1sQgLNTTA-D0FAWpRENHw50PL7frqX13r/view?usp=sharing
 
