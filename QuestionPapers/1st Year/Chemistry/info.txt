@@ -32,3 +32,11 @@ Year: 2015,2017
 Semester: 1
 College: NIT
 link: https://drive.google.com/file/d/1qX4w3pwsiJ3CPrv7oWWjWicphqy7t06k/view?usp=sharing
+
+#6
+Subject: Engineering Chemistry
+Year: 2015,2017,2018
+Semester: 1
+College: NIT
+link: https://drive.google.com/file/d/1LYG_fDAC7q02w7dutygjD5uVuWN3LkvB/view?usp=sharing
+
