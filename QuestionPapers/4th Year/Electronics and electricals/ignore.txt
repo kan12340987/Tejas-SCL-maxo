@@ -100,3 +100,12 @@ Year: 2019
 Semester: 7
 University: VTU
 link: https://drive.google.com/file/d/1piV5tpjTsuGebJ_jVBQ3IaoCqnSbkco1/view?usp=sharing
+
+#13
+Branch: Electrical and Electronics Engineering
+Subject: High voltage engineering
+Year: 2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1vFse6PdPdINQx6VC5eWQIGW8rvGngVqP/view?usp=sharing
+link:
