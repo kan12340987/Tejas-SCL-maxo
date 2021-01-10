@@ -13,3 +13,11 @@ Year: 2019
 Semester: 7
 University: VTU
 link: https://drive.google.com/file/d/1c6njqY_1_PMuU40RWuN0qTb62-T0FrrT/view?usp=sharing
+
+#3
+Branch: Electrical and Communication Engineering
+Subject: Wireless cellular and LTE 4G broadband
+Year: 2019
+Semester: 8
+University: VTU
+link:https://drive.google.com/file/d/1w1XHEzyVBx6uw60bLH0la00ySDBhufIF/view?usp=sharing
