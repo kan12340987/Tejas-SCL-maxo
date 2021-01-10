@@ -3,7 +3,9 @@
 <br>
 <!-- Team Logos --!>
 
-<img src="https://ibb.co/86fz4Ty" height=120px/>
+<a href="https://ibb.co/86fz4Ty"><img src="https://i.ibb.co/86fz4Ty/SCL-Logo-PNG.png" alt="SCL-Logo-PNG" border="0"></a> 
+
+<a href="https://ibb.co/VLySnFb"><img src="https://i.ibb.co/VLySnFb/Tejas-LOGO.png" alt="Tejas-LOGO" border="0"></a>
  
 
 
