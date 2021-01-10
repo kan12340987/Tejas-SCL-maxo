@@ -5,3 +5,11 @@ Year: 2019
 Semester: 8
 University: VTU
 link: https://drive.google.com/file/d/1p_7PS1rta7YRfpyde8RfODmZsDclxXqz/view?usp=sharing
+
+#2
+Branch: Civil Engineering
+Subject: Hydraulic Structures
+Year: 2019
+Semester: 8
+University: VTU
+link: https://drive.google.com/file/d/19mZNiLtlRWmOuF6eWYYyUW7IfSu9xKkQ/view?usp=sharing
