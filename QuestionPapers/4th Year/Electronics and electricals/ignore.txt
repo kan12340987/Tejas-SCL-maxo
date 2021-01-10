@@ -20,4 +20,12 @@ Subject: Wireless cellular and LTE 4G broadband
 Year: 2019
 Semester: 8
 University: VTU
-link:https://drive.google.com/file/d/1w1XHEzyVBx6uw60bLH0la00ySDBhufIF/view?usp=sharing
+link: https://drive.google.com/file/d/1w1XHEzyVBx6uw60bLH0la00ySDBhufIF/view?usp=sharing
+
+#4
+Branch: Electrical and Communication Engineering
+Subject: Fibre optics and networks
+Year: 2019
+Semester: 8
+University: VTU
+link: https://drive.google.com/file/d/103-CS-Gc6AIwSNaKOAQM0kg4pKTsn1XL/view?usp=sharing
