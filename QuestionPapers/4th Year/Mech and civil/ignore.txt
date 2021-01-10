@@ -37,3 +37,11 @@ Year: 2019
 Semester: 7
 University: VTU
 link: https://drive.google.com/file/d/1Pxvhb9csqflRR8W96-H4Q9RpogGPvfRo/view?usp=sharing
+
+#6
+Branch: Mechanical Engineering
+Subject:Product life cycle managementPaper6
+Year: 2019
+Semester: 7
+University: VTU
+link: 
