@@ -11,3 +11,9 @@ Year: 2019
 Semester: 1
 College: PES University
 link: https://drive.google.com/file/d/1HSZiu_k-IDLDTdkKFBLnkpN2Oo3XMEqZ/view?usp=sharing
+
+#3
+Subject: Basics of Electrical engineering
+Year: 2018
+Semester: 1
+College: PES University
