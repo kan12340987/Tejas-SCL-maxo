@@ -20,12 +20,13 @@
 <style type="text/css">
     
 .common{
-  background-color: #2bd44b;
+  background-color: green;
  /* box-shadow: 0 5px 0 darkred;*/
   color: white;
  /* padding: 1em 1.7em;*/
   padding: 20px;
-  
+  font-size: larger;
+
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -68,7 +69,7 @@
 }
 
 #bts1:hover,#bts2:hover,#bts3:hover {
-    background-color:rgba(100,30,30,0.8);
+    background-color:#28b31c;
 
     text-decoration: none;
 }
@@ -126,7 +127,7 @@ only screen and (max-width: 760px),
                         <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home&nbsp;&nbsp;&nbsp;</a></li>
                         <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-about' %}">About Us&nbsp;&nbsp;&nbsp;</a></li>
                         <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Forums&nbsp;&nbsp;&nbsp;</a></li>
-                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'contact' %}">Contact Us&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Contact Us&nbsp;&nbsp;&nbsp;</a></li>
                         <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-profile' %}">Profile&nbsp;&nbsp;&nbsp;<i class="far fa-user"></i></a></li>
                     </ul>
                 </div>
@@ -146,11 +147,9 @@ only screen and (max-width: 760px),
    <!-- <button type="button" id="one" class="btn btn-primary">Primary</button> ---->
   
   <div class="cont">
-   <a class="common" id="bts1" href="{% url  'Users-Notebook' %}"><i class="fas fa-question"></i>Notes</a> 
-    <a class="common" id="bts2" href="{% url 'Users-Textbook' %}"><i class="fas fa-question"></i>References</a> 
-    
-
-   <a class="common" id="bts3" href="{% url 'Users-Papers' %}"><i class="fas fa-question"></i> Papers</a> 
+   <a class="common" id="bts1" href="{% url  'Users-Notebook' %}"><i class="fas fa-sticky-note"></i>&nbsp;&nbsp;Notes</a> 
+    <a class="common" id="bts2" href="{% url 'Users-Textbook' %}"><i class="fas fa-book"></i>&nbsp;&nbsp;References</a> 
+   <a class="common" id="bts3" href="{% url 'Users-Papers' %}"><i class="fas fa-question"></i>&nbsp;&nbsp;Papers</a> 
 </div>
 
     </div>
