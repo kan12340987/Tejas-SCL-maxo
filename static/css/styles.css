@@ -20,7 +20,6 @@
 #navbarCustom{
   color: #ffffff;
    background-color:green;
-   {% comment %} border:1px solid black; {% endcomment %}
    border-radius: 20px;
    width: 100px;
    text-align: center;

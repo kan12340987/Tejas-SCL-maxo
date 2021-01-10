@@ -14,13 +14,91 @@
     <link rel="stylesheet" href="{% static 'css/NavBar.css'%}">
     <link rel="stylesheet" href="css/Pulse-Button-on-Hover-1.css">
     <link rel="stylesheet" href="{% static 'css/Pulse-Button-on-Hover.css'%}">
-    <link rel="stylesheet" href="{% static 'css/styles.css'%}">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/3aa31213fd.js" crossorigin="anonymous"></script>
 </head>
+<style type="text/css">
+    
+.common{
+  background-color: green;
+ /* box-shadow: 0 5px 0 darkred;*/
+  color: white;
+ /* padding: 1em 1.7em;*/
+  padding: 20px;
+  font-size: larger;
 
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 120px;
+
+  overflow: hidden;
+  height: auto;
+  width: fit-content;
+
+}
+
+ #bts1{
+
+  position: fixed;
+  width: 300px;
+  text-align: center;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #ffffff;
+}
+ #bts2{
+ 
+  position: fixed;
+  width: 300px;
+  text-align: center;
+  margin-left: 520px;
+  text-decoration: none;
+  color: #ffffff;
+  }
+#bts3{
+  position: fixed;
+  width: 300px;
+  text-align: center;
+  margin-left: 1000px;
+  text-decoration: none;
+  color: #ffffff;
+ 
+}
+
+#bts1:hover,#bts2:hover,#bts3:hover {
+    background-color:#28b31c;
+
+    text-decoration: none;
+}
+
+
+
+
+.cont{
+    width: fit-content;
+
+    margin: 10px 50px;
+    padding: 30px;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+ .container{
+    width:100%;
+ }
+
+}
+
+
+
+</style>
 <body>
     <!-- Start: Fixed Navbar start with transparency background -->
-    <div>
+    <div class="container">
         <!-- Start: Menu + header background -->
         <header>
             <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white transparency border-bottom border-light" id="transmenu">
@@ -45,11 +123,12 @@
             <div class="container"><a class="navbar-brand text-success" href="{% url 'Users-Homepage' %}" style="border-left-color: rgb(115,26,26);"><i class="fa fa-leaf fa-2x"></i><strong>Note</strong>Repo</a><button data-toggle="collapse" class="navbar-toggler collapsed" data-target="#navcol-1"><span></span><span></span><span></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
-                        <li id="navbarCustom" class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home&nbsp&nbsp&nbsp</a></li>
-                        <li id="navbarCustom" class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-about' %}">About us&nbsp&nbsp&nbsp</a></li>
-                        <li id="navbarCustom" class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Forums&nbsp&nbsp&nbsp</a></li>
-                        <li id="navbarCustom" class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Contact Us&nbsp&nbsp&nbsp</a></li>
-                        <li id="navbarCustom" class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-profile' %}">Profile&nbsp&nbsp&nbsp<i class="far fa-user"></i></a></li>
+                      
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-about' %}">About Us&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Forums&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Contact Us&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-profile' %}">Profile&nbsp;&nbsp;&nbsp;<i class="far fa-user"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -63,15 +142,19 @@
             </div>
         {% endfor %}
     {% endif %}
-    <!-- Start: Pulse Button on Hover --><div>
-<div>
-<a style="background-color: green;" href="{% url 'Users-Notebook' %}" class="pulseBtn"><i class="fas fa-sticky-note"></i> Notes</a>
+    <!-- Start: Pulse Button on Hover -->
+    
+   <!-- <button type="button" id="one" class="btn btn-primary">Primary</button> ---->
+  
+  <div class="cont">
+   <a class="common" id="bts1" href="{% url  'Users-Notebook' %}"><i class="fas fa-sticky-note"></i>&nbsp;&nbsp;Notes</a> 
+    <a class="common" id="bts2" href="{% url 'Users-Textbook' %}"><i class="fas fa-book"></i>&nbsp;&nbsp;References</a> 
+   <a class="common" id="bts3" href="{% url 'Users-Papers' %}"><i class="fas fa-question"></i>&nbsp;&nbsp;Papers</a> 
 </div>
-<a style="background-color: green;" href="{% url 'Users-Textbook' %}" class="pulseBtn"><i class="fas fa-book"></i> References</a>
-</div><!-- End: Pulse Button on Hover -->
-    <!-- Start: Pulse Button on Hover --><div>
-<a style="background-color: green;" href="{% url 'Users-Papers' %}" class="pulseBtn"><i class="fas fa-question"></i> Papers</a>
-</div><!-- End: Pulse Button on Hover -->
+
+    </div>
+    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.quilljs.com/1.0.0/quill.js"></script>
