@@ -85,3 +85,10 @@ Year: 2019
 Semester: 7
 University: VTU
 link: https://drive.google.com/file/d/1AF0g9wO6yxSBQfbcWEVb0N4IedJK9QZX/view?usp=sharing
+
+#12
+Branch: Electrical and Electronics Engineering
+Subject: Space craft technologies
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1Ka9AAALWZOSkP8KyIfuuyGz3Dsl86o7Q/view?usp=sharing
