@@ -68,16 +68,16 @@ def profile(request):
             u_form.save()
             return redirect('Users-profile')
 
+        if p_form.is_valid():
+                    print("hello")
+                    p_form.save()
+                    return redirect('Users-profile')
+
         if n_form.is_valid():
             n_form.save()
             return redirect('Users-profile')
 
-        elif p_form.is_valid():
-            print("hello")
-            p_form.save()
-            return redirect('Users-profile')
-
-
+        
     else:
         u_form = UserUpdateFrom(instance=request.user)
         p_form = ProfileUpdateForm(instance=request.user.profile) 
