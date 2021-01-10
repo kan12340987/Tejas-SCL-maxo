@@ -2,6 +2,7 @@
 .DS_Store
 .idea
 media
+db.sqlite3
 myenv
 venv
 djangoProject/settings.py
