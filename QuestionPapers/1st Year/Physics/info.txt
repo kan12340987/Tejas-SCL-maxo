@@ -21,7 +21,21 @@ link: https://drive.google.com/file/d/1XS2FyVOH5VRbhxbk2HcgBSpLCZ7xYq79/view?usp
 
 #4
 Subject: Engineering Physics
-Year: 2015,2016,2017
+Year: 2017
 Semester: 1
 College: PES University
-link: https://drive.google.com/file/d/18hHCqSdVcgBfRkl6_f7QzC89UBFKWkJl/view?usp=sharing
+link: https://drive.google.com/file/d/19n57wp8keKiTJFmo50KXWmsZMHkrvEc4/view?usp=sharing
+
+#5
+Subject: Engineering Physics
+Year: 2018
+Semester: 1
+College: PES University
+link: https://drive.google.com/file/d/1kyfvLHkOzu8K7STi-v2O086LoGaRxX0T/view?usp=sharing
+
+#6
+Subject: Engineering Physics
+Year: 2017,2018,2019
+Semester: 1
+College: PES University
+link: https://drive.google.com/file/d/1Q_isa4Y1xAEdjOZ5TXJx-vP_QHipePZl/view?usp=sharing
