@@ -3,9 +3,6 @@
 <br>
 <!-- Team Logos --!>
 
-<p align="center">
-<img style="height: 60px; align: center;" src="media\ReadMe Screenshots\logos\Tejas LOGO.png"/>&nbsp; <img style="height: 10px; width:10px; padding: 0px 0px 30px 0px" src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/prod-pict-xmark_2.png"/> &nbsp;<img style="height: 70px; align: center;" src="media\ReadMe Screenshots\logos\SCL Logo PNG.png"/>&nbsp;
-
  
 
 
