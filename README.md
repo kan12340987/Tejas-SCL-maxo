@@ -3,7 +3,7 @@
 <br>
 <!-- Team Logos --!>
 
-![Tejas](./media/ReadMe Screenshots/logos/SCL Logo PNG.png)
+![Tejas](.media/ReadMe Screenshots/logos/SCL Logo PNG.png)
  
 
 
