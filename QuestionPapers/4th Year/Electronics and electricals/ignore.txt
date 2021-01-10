@@ -140,3 +140,11 @@ Year: 2019
 Semester: 8
 University: VTU
 link:https://drive.google.com/file/d/1Wctr-lG6DZtUhOzpqF4XZkiOG4CcfBz5/view?usp=sharing
+
+#18
+Branch: Electrical and Electronics Engineering
+Subject: Power system protection
+Year: 2019
+Semester: 8
+University: VTU
+link: https://drive.google.com/file/d/1b7hYiEUcbu8zWkB9hC0uSxTeAZPgkwul/view?usp=sharing
