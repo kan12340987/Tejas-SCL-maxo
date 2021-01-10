@@ -40,3 +40,9 @@ Semester: 1
 College: PES University
 link: https://drive.google.com/file/d/16sT2T8XYqhJMezAk8eQOgNSuxT3ELlzn/view?usp=sharing
 
+#7
+Subject: Basics of Electronics
+Year: 2016
+Semester: 1
+College: PES University
+link:
