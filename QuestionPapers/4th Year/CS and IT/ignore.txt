@@ -61,3 +61,11 @@ Year: 2018-2019
 Semester: 7
 University: VTU
 link: https://drive.google.com/file/d/1qgQO8qt_heMzOBzLacnXtRB9IdAgwSGF/view?usp=sharing
+
+#9
+Branch: Computer Science Engineering
+Subject: Internet of Things Technology
+Year: 2019
+Semester: 8
+University: VTU
+link: https://drive.google.com/file/d/12AtnT9WBpcKv8KdBaqQ7NbfDkgRwKTAl/view?usp=sharing
