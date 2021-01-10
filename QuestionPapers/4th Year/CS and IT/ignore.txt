@@ -37,3 +37,11 @@ Year: 2018-2019
 Semester: 7
 University: VTU
 link: https://drive.google.com/file/d/1U5lXkp7AAAM-g7CR4aISy4DyKbeEPeBT/view?usp=sharing
+
+#6
+Branch: Computer Science Engineering
+Subject: Machine Learning
+Year: 2018-2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1mVPSKT9aUs43UI3-bPGFgBIMN6UYS1B6/view?usp=sharing
