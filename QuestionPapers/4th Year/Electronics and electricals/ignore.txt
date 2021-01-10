@@ -113,6 +113,14 @@ link: https://drive.google.com/file/d/1vFse6PdPdINQx6VC5eWQIGW8rvGngVqP/view?usp
 Branch: Electrical and Electronics Engineering
 Subject: Power system operation and control
 Year: 2019
-Semester: 7
+Semester: 8
 University: VTU
 link: https://drive.google.com/file/d/1HTNep5r37c205DXFz_qAHYSWar9AE3wm/view?usp=sharing
+
+#15
+Branch: Electrical and Electronics Engineering
+Subject: Industrial Drives and applications
+Year: 2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1kBS9XSJ-M-MKODkjR5WrTHL0hmL9qLPL/view?usp=sharing
