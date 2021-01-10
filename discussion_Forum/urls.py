@@ -1,4 +1,4 @@
-"""Main URL Configuration
+"""DataFlair_discsnForum URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/
@@ -14,21 +14,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
-from Users import views as users_views
-from django.contrib.auth import views as auth_views
-from django.conf import settings
-from django.conf.urls.static import static
-
-
-
+from django.urls import path
+#from discussion_Forum.views import *
+from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('webapp.urls')),
-    path('forum/', include('discussion_Forum.urls')),
-    path('login/', users_views.login, name="Users-login"),
-    path('oauth/', include('social_django.urls', namespace='social')), #path of social login
+    
+    path('',views.home,name='home'),
+    path('addInForum/',views.addInForum,name='addInForum'),
+    path('addInDiscussion/',views.addInDiscussion,name='addInDiscussion'),
 ]
-
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

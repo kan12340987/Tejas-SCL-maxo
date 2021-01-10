@@ -1,0 +1,21 @@
+
+
+
+
+{% block content %}
+
+{{ error }}
+
+{% if post %}
+
+<h1> Search is found </h1>
+<br>
+{% for i in post %}
+<h2><a href="#">{{i.title }} </a>
+</h2>
+{% endfor %}
+{% else %}
+<center><h1>nothing found </h1></center>
+
+{% endif %}
+{% endblock content %}

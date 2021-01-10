@@ -11,12 +11,30 @@
         width: fit-content(20em);
 
     }
+    .form{
+     position:relative;
+     padding: 20px;
+     margin-left:1200px;
+
+    }
     
 @media 
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
 
     /* Force table to not be like tables anymore */
+
+    *{
+        padding: 2px;
+        margin: 10px;
+    }
+    
+     .container1{
+        width: fit-content(10em);
+       
+
+    }
+
     table, thead, tbody, th, td, tr { 
         display: block; 
     }
@@ -55,15 +73,26 @@ only screen and (max-width: 760px),
         padding-right: 10px; 
         white-space: nowrap;
     }
+    .form{
+     position:absolute;
+     width: 100%;
+     margin: 14px 200px;
+     padding: 10px;
+
+    }
+    
 }
 
 
     </style>
-    <form style="float:right;"class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search"  >
-                            <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
-                                <div class="input-group-append"><button class="btn btn-primary py-0" type="button" style="background: rgb(0,128,0);">🔍</button></div>
-                            </div>
-                        </form>
+    <div class="form">
+    <form class="search" action="{% url 'test-search' %}" method='GET'>
+        
+  
+  <input  type="search" placeholder="Search here..." name="search" >
+  <button type="submit">Search</button>
+</form>
+</div>
     {% endblock content %}
 
     {% block list %}
@@ -94,6 +123,8 @@ only screen and (max-width: 760px),
     </tbody>
     </table><i class="fa fa-star"></i>
 </div>
+
+   
 
     {% endblock list %}
 

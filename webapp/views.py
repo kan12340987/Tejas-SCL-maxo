@@ -3,6 +3,9 @@ from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 from webapp.models import QPapers, notes, Texbook
 from django.contrib.auth.models import User
+from django.template import loader
+from django.template.loader import get_template 
+from . import models
 
 def home(request):
     return render(request, 'index.html')
@@ -34,4 +37,13 @@ def textbook(request):
 @login_required
 def landingpage(request):
     return render(request, 'Secondarylogin.html')
+
+
+def search(request):
+  if request.method == 'GET':
+     search = request.GET.get('search')
+     post= Texbook.objects.all().filter(Title=search)
+     return render(request,'message.html',{'post':post})
+
+
 

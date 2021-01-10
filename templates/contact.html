@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+</script>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -52,7 +53,7 @@
                             </div>
                         </div>
                         <div class="col col-contact">
-                            <div class="form-group modern-form__form-group--padding-l"><input class="form-control input input-tr" type="text" placeholder="Email">
+                            <div class="form-group modern-form__form-group--padding-l"><input class="form-control input input-tr" name="email" type="text" placeholder="Email">
                                 <div class="line-box">
                                     <div class="line"></div>
                                 </div>
@@ -61,7 +62,7 @@
                     </div>
                     <div class="form-row">
                         <div class="col">
-                            <div class="form-group modern-form__form-group--padding-t"><textarea class="form-control input modern-form__form-control--textarea" placeholder="Message"></textarea>
+                            <div class="form-group modern-form__form-group--padding-t"><textarea class="form-control input modern-form__form-control--textarea" name="mess" placeholder="Message"></textarea>
                                 <div class="line-box">
                                     <div class="line"></div>
                                 </div>
@@ -69,7 +70,7 @@
                         </div>
                     </div>
                     <div class="form-row">
-                        <div class="col text-center"><button class="btn btn-primary submit-now" type="submit" style="width: 137px;">Submit&nbsp;</button></div>
+                        <div class="col text-center"><button  id="mybutton" class="btn btn-primary submit-now" type="submit" style="width: 137px;"><a style="color: #fff;text-decoration: none;" href="mailto:teamtejaswkc@gmail.com?subject=issue with app%20Line&body=mess%20in%20this%20http://email" >Submit&nbsp;</a></button></div>
                     </div>
                 </form>
             </div>
@@ -100,6 +101,11 @@
     <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
     <script src="assets/js/-Fixed-Navbar-start-with-transparency-background-BS4-.js"></script>
     <script src="assets/js/Animated-Typing-With-Blinking.js"></script>
+    <script type="text/javascript">
+
+    document.getElementById("mybutton").onclick = function () {
+        location.href = "https://morioh.com/explore?next=%2F";
+    };
 </body>
 
 </html>

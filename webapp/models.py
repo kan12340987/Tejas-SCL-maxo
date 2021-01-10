@@ -29,3 +29,6 @@ class notes(models.Model):
     Semester = models.IntegerField(default= 1)
     college = models.TextField(default = '')   
     link = models.URLField(default='')
+
+    def snipet(self):
+        return self.title
