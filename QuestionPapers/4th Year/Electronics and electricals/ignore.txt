@@ -92,3 +92,11 @@ Subject: Space craft technologies
 Semester: 7
 University: VTU
 link: https://drive.google.com/file/d/1Ka9AAALWZOSkP8KyIfuuyGz3Dsl86o7Q/view?usp=sharing
+
+#13
+Branch: Electrical and Electronics Engineering
+Subject: Power system planning
+Year: 2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1piV5tpjTsuGebJ_jVBQ3IaoCqnSbkco1/view?usp=sharing
