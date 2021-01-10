@@ -25,3 +25,25 @@ Year: 2015,2016,2017
 Semester: 1
 College: PES University
 link: https://drive.google.com/file/d/1KQwdzpQYolDx7RpOnYq2_o-28z_XOP9J/view?usp=sharing
+
+#5
+Subject: Mechanical Engineering sciences
+Year: 2017
+Semester: 1
+College: PES University
+link: https://drive.google.com/file/d/1JbPMxSI4SdkctaWrtAT-pGFG9fv1ks2B/view?usp=sharing
+
+#5
+Subject: Mechanical Engineering sciences
+Year: 2018
+Semester: 1
+College: PES University
+link: https://drive.google.com/file/d/1zVz8lAK2IvvlGD1yTFUhRxX7vxqnaiu1/view?usp=sharing
+
+#5
+Subject: Mechanical Engineering sciences
+Year: 2019
+Semester: 1
+College: PES University
+link: https://drive.google.com/file/d/1K5YUVSJ7fxmV2smqpe2JzSZxkLylcvV8/view?usp=sharing
+
