@@ -1,12 +1,14 @@
 # Tejas-SCL-maxo
-<!-- Logos -->
+
 <br>
+<!-- Team Logos --!>
+
 <p align="center">
-  <a href="https://github.com/kan12340987/Tejas-SCL-maxo/blob/main/README.md">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" alt="Logo" width="80" height="80"> &nbsp;
-    <a href="http://www.djangoproject.com/"><img src="https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif" border="0" alt="Powered by Django." title="Powered by Django." /></a>  
-    <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="100" height="80">  
-  </a>
+<img style="height: 120px; align: center;" src="media\ReadMe Screenshots\logos\Tejas LOGO.png">&nbsp; <img style="height: 50px; width:50px; padding: 0px 0px 30px 0px" src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/prod-pict-xmark_2.png"> &nbsp;<img style="height: 130px; align: center;" src="media\ReadMe Screenshots\logos\SCL Logo PNG.png">&nbsp;
+
+ 
+
+
 <!-- Heads -->
   <h1 align="center">Tejas x SCL</h1>
   <h2 align="center">NoteRepo</h2>
@@ -23,8 +25,17 @@
     <a href="https://github.com/kan12340987/Tejas-SCL-maxo/issues/new">Request a Feature</a>
   </p>
 </p>
-    <br />
-    <br />
+
+<!-- Logos -->
+<br>
+<p align="center">
+  <a href="https://github.com/kan12340987/Tejas-SCL-maxo/blob/main/README.md">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" alt="Logo" width="80" height="80"> &nbsp;
+    <a href="http://www.djangoproject.com/"><img src="https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif" border="0" alt="Powered by Django." title="Powered by Django." /></a>  
+    <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="100" height="80">  
+  </a>
+<br>
+<br>
 
 <!-- Repo detail Stickers -->
 <p align="center">                          
