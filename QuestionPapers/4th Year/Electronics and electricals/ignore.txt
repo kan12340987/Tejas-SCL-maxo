@@ -61,3 +61,11 @@ Year: 2019
 Semester: 7
 University: VTU
 link: https://drive.google.com/file/d/1xaOXVJxhYg2ZOa6-K_GFqrgN7Dvclmdq/view?usp=sharing
+
+#9
+Branch: Electrical and Electronics Engineering
+Subject: Testing and Commissioning of power system apparatus
+Year: 2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1xaOXVJxhYg2ZOa6-K_GFqrgN7Dvclmdq/view?usp=sharing
