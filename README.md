@@ -3,7 +3,7 @@
 <br>
 <!-- Team Logos --!>
 
-![tejas](./media/ReadMe Screenshots/logos/SCL Logo PNG.png)
+<img src="https://ibb.co/86fz4Ty" height=120px/>
  
 
 
