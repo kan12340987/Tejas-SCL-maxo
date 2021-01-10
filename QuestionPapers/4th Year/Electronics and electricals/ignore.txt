@@ -125,10 +125,18 @@ Semester: 8
 University: VTU
 link: https://drive.google.com/file/d/1kBS9XSJ-M-MKODkjR5WrTHL0hmL9qLPL/view?usp=sharing
 
-#15
+#16
 Branch: Electrical and Electronics Engineering
 Subject: Operation and maintenance of solar electric system
 Year: 2019
 Semester: 8
 University: VTU
 link: https://drive.google.com/file/d/1qFIkAwQ57nR974DKJY2p7pNdN7JYAt3W/view?usp=sharing
+
+#17
+Branch: Electrical and Electronics Engineering
+Subject: Power system analysis
+Year: 2019
+Semester: 8
+University: VTU
+link:https://drive.google.com/file/d/1Wctr-lG6DZtUhOzpqF4XZkiOG4CcfBz5/view?usp=sharing
