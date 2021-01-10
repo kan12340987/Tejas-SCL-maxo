@@ -108,4 +108,11 @@ Year: 2019
 Semester: 7
 University: VTU
 link: https://drive.google.com/file/d/1vFse6PdPdINQx6VC5eWQIGW8rvGngVqP/view?usp=sharing
-link:
+
+#14
+Branch: Electrical and Electronics Engineering
+Subject: Power system operation and control
+Year: 2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1HTNep5r37c205DXFz_qAHYSWar9AE3wm/view?usp=sharing
