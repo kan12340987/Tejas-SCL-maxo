@@ -137,7 +137,7 @@ link: https://drive.google.com/file/d/1qFIkAwQ57nR974DKJY2p7pNdN7JYAt3W/view?usp
 Branch: Electrical and Electronics Engineering
 Subject: Power system analysis
 Year: 2019
-Semester: 8
+Semester: 7
 University: VTU
 link:https://drive.google.com/file/d/1Wctr-lG6DZtUhOzpqF4XZkiOG4CcfBz5/view?usp=sharing
 
@@ -145,7 +145,7 @@ link:https://drive.google.com/file/d/1Wctr-lG6DZtUhOzpqF4XZkiOG4CcfBz5/view?usp=
 Branch: Electrical and Electronics Engineering
 Subject: Power system protection
 Year: 2019
-Semester: 8
+Semeste: 7
 University: VTU
 link: https://drive.google.com/file/d/1b7hYiEUcbu8zWkB9hC0uSxTeAZPgkwul/view?usp=sharing
 
@@ -153,7 +153,7 @@ link: https://drive.google.com/file/d/1b7hYiEUcbu8zWkB9hC0uSxTeAZPgkwul/view?usp
 Branch: Electrical and Electronics Engineering
 Subject: High voltage engineering
 Year: 2019
-Semester: 8
+Semester: 7
 University: VTU
 link: https://drive.google.com/file/d/1FqEg4b6kvQkFE1B0OMdy9lqEq-M9Ingl/view?usp=sharing
 
@@ -161,6 +161,6 @@ link: https://drive.google.com/file/d/1FqEg4b6kvQkFE1B0OMdy9lqEq-M9Ingl/view?usp
 Branch: Electrical and Electronics Engineering
 Subject: Advanced control systems
 Year: 2019
-Semester: 8
+Semester: 7
 University: VTU
 link: https://drive.google.com/file/d/1XkLlT-QqUVy16PZLXk036UtzQwRd6eyG/view?usp=sharing
