@@ -45,3 +45,11 @@ Year: 2019
 Semester: 8
 University: VTU
 link: https://drive.google.com/file/d/1fdekKmOUFvAAvnWzUMHOF8-NTuaho2PT/view?usp=sharing
+
+#7
+Branch: Electrical and Communication Engineering
+Subject: Machine Learning
+Year: 2019
+Semester: 8
+University: VTU
+link: https://drive.google.com/file/d/1gBEVRmYk2mPhH-nBBv8tM9M9EwNkpOWP/view?usp=sharing
