@@ -1,5 +1,5 @@
 #1
-Branch: Electrical and Communication Engineering
+Branch:Electronics and Communication Engineering
 Subject: Power Electronics
 Year: 2019
 Semester: 7
@@ -7,7 +7,7 @@ University: VTU
 link: https://drive.google.com/file/d/1eehF2n-fSB4wtv7KmVduIvZRYoq3vAlB/view?usp=sharing
 
 #2
-Branch: Electrical and Communication Engineering
+Branch: Electronics and Communication Engineering
 Subject: Multimedia Communication
 Year: 2019
 Semester: 7
@@ -15,7 +15,7 @@ University: VTU
 link: https://drive.google.com/file/d/1c6njqY_1_PMuU40RWuN0qTb62-T0FrrT/view?usp=sharing
 
 #3
-Branch: Electrical and Communication Engineering
+Branch:Electronics and Communication Engineering
 Subject: Wireless cellular and LTE 4G broadband
 Year: 2019
 Semester: 8
@@ -23,7 +23,7 @@ University: VTU
 link: https://drive.google.com/file/d/1w1XHEzyVBx6uw60bLH0la00ySDBhufIF/view?usp=sharing
 
 #4
-Branch: Electrical and Communication Engineering
+Branch:Electronics and Communication Engineering
 Subject: Fibre optics and networks
 Year: 2019
 Semester: 8
@@ -31,7 +31,7 @@ University: VTU
 link: https://drive.google.com/file/d/103-CS-Gc6AIwSNaKOAQM0kg4pKTsn1XL/view?usp=sharing
 
 #5
-Branch: Electrical and Communication Engineering
+Branch: Electronics and Communication Engineering
 Subject: Network and cyber security
 Year: 2019
 Semester: 8
@@ -39,7 +39,7 @@ University: VTU
 link: https://drive.google.com/file/d/1J71l6OAxvT0TUJ03J8jM5wsHqTl69Jjl/view?usp=sharing
 
 #6
-Branch: Electrical and Communication Engineering
+Branch:Electronics and Communication Engineering
 Subject: Micro electro mechanical system
 Year: 2019
 Semester: 8
@@ -47,9 +47,17 @@ University: VTU
 link: https://drive.google.com/file/d/1fdekKmOUFvAAvnWzUMHOF8-NTuaho2PT/view?usp=sharing
 
 #7
-Branch: Electrical and Communication Engineering
+Branch: Electronics and Communication Engineering
 Subject: Machine Learning
 Year: 2019
 Semester: 8
 University: VTU
 link: https://drive.google.com/file/d/1gBEVRmYk2mPhH-nBBv8tM9M9EwNkpOWP/view?usp=sharing
+
+#8
+Branch: Electrical and Electronics Engineering
+Subject: Advanced Control Systems
+Year: 2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1xaOXVJxhYg2ZOa6-K_GFqrgN7Dvclmdq/view?usp=sharing
