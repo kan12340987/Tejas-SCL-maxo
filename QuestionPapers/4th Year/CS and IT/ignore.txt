@@ -69,3 +69,11 @@ Year: 2019
 Semester: 8
 University: VTU
 link: https://drive.google.com/file/d/12AtnT9WBpcKv8KdBaqQ7NbfDkgRwKTAl/view?usp=sharing
+
+#10
+Branch: Computer Science Engineering
+Subject: Data analytics
+Year: 2019
+Semester: 8
+University: VTU
+link: https://drive.google.com/file/d/1maCOuLz2G8qMrH5HUiIGY3WOaG6P-0pq/view?usp=sharing
