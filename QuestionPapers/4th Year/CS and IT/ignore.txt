@@ -53,3 +53,11 @@ Year: 2018-2019
 Semester: 7
 University: VTU
 link: https://drive.google.com/file/d/1nMRNyqXPpo2LINum8TuAUjvjTcIXho09/view?usp=sharing
+
+#8
+Branch: Computer Science Engineering
+Subject: Digital Image Processing
+Year: 2018-2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1qgQO8qt_heMzOBzLacnXtRB9IdAgwSGF/view?usp=sharing
