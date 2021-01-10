@@ -33,3 +33,9 @@ Semester: 1
 College: PES University
 link: https://drive.google.com/file/d/1yreQl66V3foor97IJRtLeoVLtDTdbkGP/view?usp=sharing
 
+#6
+Subject: C
+Year: 2018
+Semester: 1
+College: PES University
+link: https://drive.google.com/file/d/1umMOKFi6JQ-roG98tXvdCkjE7tOy_fLU/view?usp=sharing
