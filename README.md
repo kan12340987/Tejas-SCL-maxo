@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://i.ibb.co/86fz4Ty/SCL-Logo-PNG.png" alt="SCL-Logo-PNG" border="0"/>&nbsp; 
-  X
+  <img src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/prod-pict-xmark_2.png" height=65px; padding="0px 0px 20px 0px"# style>&nbsp; 
   <img src="https://i.ibb.co/VLySnFb/Tejas-LOGO.png" alt="Tejas-LOGO" border="0"/>
  
 
