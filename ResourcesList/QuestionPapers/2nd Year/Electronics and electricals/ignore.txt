@@ -1,0 +1,167 @@
+#1
+Branch: Electronics and communication
+Subject: Network analysis and synthesis(NAS)
+Year: 2020
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1VcxMQt_aR9mbXA_WccEviKiZY9gAj0fs/view?usp=sharing
+
+#2
+Branch: Electronics and communication
+Subject: Network analysis and synthesis(NAS)
+Year: 2018
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1nag4upeicpp8fRrMKjxXbq2hN1HnHgpe/view?usp=sharing
+
+#3
+Branch: Electronics and communication
+Subject: Network analysis and synthesis(NAS)
+Year: 2016
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1hGM6-lla3Jjk04ZQS2qxtTkJl0b7WNhI/view?usp=sharing
+
+#4
+Branch: Electronics and communication
+Subject: Network analysis and synthesis(NAS)
+Year: 2015
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1fhWJDQt_pTmBj1UzQ_7aBKfadI8-Zr4n/view?usp=sharing
+
+#5
+Branch: Electronics and communication
+Subject: Network analysis and synthesis(NAS)
+Year: 2017
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1HdtT6TBK8Wa9Gwe71iONFyEca5WEaM0m/view?usp=sharing
+
+#6
+Branch: Electronics and communication
+Subject: Network analysis and synthesis(NAS)
+Year: 2019
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/10mKpSx-DbNNezQRk8y_OnCAWKJdtI-k3/view?usp=sharing
+
+#7
+Branch: Electronics and communication
+Subject: Computer Organisation and Digital Design
+Year: 2017
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1EhGUejRTBhjsIP1XNJ-g7YNsWUX2SXDo/view?usp=sharing
+
+#8
+Branch: Electronics and communication
+Subject: Computer Organisation and Digital Design
+Year: 2018
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/14VqixgE3vNI89X35cfkLPKvgHPPfIudn/view?usp=sharing
+
+#9
+Branch: Electronics and communication
+Subject: Computer Organisation and Digital Design
+Year: 2018
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1L88zYJ6y3_RrMF2MnWQrLw6getCSYpFv/view?usp=sharing
+
+#10
+Branch: Electronics and communication
+Subject: Computer Organisation and Digital Design
+Year: 2020
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1WVSsO_sMoaYc1hawhT1RO05U20KGqi-n/view?usp=sharing
+
+#11
+Branch: Electronics and communication
+Subject: Computer Organisation and Digital Design
+Year: 2020
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1UFXX_4OjQarub-NSsqJzCOMWuRamJcFb/view?usp=sharing
+
+#12
+Branch: Electronics and communication
+Subject: Digital signal processing(DSP)
+Year: 2018
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1rNNjYEJ-Cd3ciyZa9WDu22_SVFqWebZt/view?usp=sharing
+
+#13
+Branch: Electronics and communication
+Subject: DSP
+Year: 2019
+Semester: 4
+College: PES University
+link:https://drive.google.com/file/d/1rIFpXjg004x61xpTrz-qaLB38czIii-3/view?usp=sharing
+
+#14
+Branch: Electronics and communication
+Subject: DSP
+Year: 2019
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1j19sqgHndvxi-QWyt_aPGtlomLKWMVEQ/view?usp=sharing
+
+#15
+Branch: Electronics and communication
+Subject: DSP
+Year: 2017
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1WmUNWWWxB3k9E8gJTN3v8rwRerh_OqPN/view?usp=sharing
+
+#16
+Branch: Electronics and communication
+Subject: Digital communication
+Year: 2014
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1sT1B1rxK_c-FMBMCsFuYanYpJzRd4Z5r/view?usp=sharing
+
+#17
+Branch: Electronics and communication
+Subject: Digital Communication
+Year: 2019
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1Z-tDiVhy0S23Vbrkj440wydEKkI8kmwE/view?usp=sharing
+
+#18
+Branch: Electronics and communication
+Subject: Electromagnetic Field Theory(EMFT)
+Year: 2015
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1Qc06eRYW8mtMT6dEttR4bvo1zXT5Dl8p/view?usp=sharing
+
+#19
+Branch: Electronics and communication
+Subject: Electromagnetic Field Theory(EMFT)
+Year: 2015
+Semester: 4
+College: PES University
+link:https://drive.google.com/file/d/1Qc06eRYW8mtMT6dEttR4bvo1zXT5Dl8p/view?usp=sharing
+
+#20
+Branch: Electronics and communication
+Subject: Electromagnetic Field Theory(EMFT)
+Year: 2016
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/19sAee1o-LugsX4eRlrsTLDKCJaZiSSVp/view?usp=sharing
+
+#22
+Branch: Electronics and communication
+Subject: Electromagnetic Field Theory(EMFT)
+Year: 2015
+Semester: 4
+College: PES University
+link: https://drive.google.com/file/d/1nkXyoCakdV8LQPGykPOpopPkaZOMjO5d/view?usp=sharing

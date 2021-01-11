@@ -1,0 +1,57 @@
+#1
+Branch: computer science
+Subject: Formal Languages and Logic
+Year: 2019
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1yNhTteNsbp9HGwPDjPm-zvdgwRDnSjmV/view?usp=sharing
+
+#2
+Branch: computer science
+Subject: Formal Languages and Logic
+Year: 2018
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1tW4jty0LUMj21IZkQ30yJNU0iyS0fCLL/view?usp=sharing
+
+#3
+Branch: computer science
+Subject: Formal Languages and Logic
+Year: 2017
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1I6q9eBnOu_FYRS32nhbRz_lDykEqS3q6/view?usp=sharing
+
+#4
+Branch: computer science
+Subject: Digital Design and computer organisation
+Year: 2018
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1h4B3SvvyHByMiUJm36vGVM02O0SDWBuc/view?usp=sharing
+
+#5
+Branch: computer science
+Subject: Digital Design and computer organisation
+Year: 2019
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1YocU9-38PQXJSup6nIP9GKqZyPyJCULg/view?usp=sharing
+
+#6
+Branch: computer science
+Subject: Digital Design and computer organisation
+Year: 2019
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1504zbJG21wY_45kAL7BhsVNvZyTIxH8m/view?usp=sharing
+
+#7
+branch: computer science
+Subject: Digital Design and computer organisation
+Year: 2010
+Semester: 3
+College: PES University
+link: https://drive.google.com/file/d/1QbRa1EXDqxxbJ9owmA29CEUs_d8USho-/view?usp=sharing
+
+#8
