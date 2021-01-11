@@ -1,0 +1,55 @@
+#1
+Subject: Basics of Electrical engineering
+Year: 2018
+Semester: 1
+College: PES University
+link: https://drive.google.com/file/d/1VB_D6-VcKTu9CBuJAqyN4fqF1uqGDGQP/view?usp=sharing
+
+#2
+Subject: Basics of Electrical engineering
+Year: 2019
+Semester: 1
+College: PES University
+link: https://drive.google.com/file/d/1HSZiu_k-IDLDTdkKFBLnkpN2Oo3XMEqZ/view?usp=sharing
+
+#3
+Subject: Basics of Electrical engineering
+Year: 2018
+Semester: 1
+College: PES University
+link:https://drive.google.com/file/d/1wyo2DuxQOo8x3rTXyxxOHbo9ZrTt4bt8/view?usp=sharing
+
+#4
+Subject: Basics of Electrical engineering
+Year: 2016
+Semester: 1
+College: PES University
+link: https://drive.google.com/file/d/1cZ7OtZNfmHlEImCtVxTqFN6XZEoWA6Fi/view?usp=sharing
+
+#5
+Subject: Basics of Electronics
+Year: 2016
+Semester: 1
+College: PES University
+link:https://drive.google.com/file/d/1zPDUTf_f6IrJsmei1YzlWcMHtNLTkdkW/view?usp=sharing
+
+#6
+Subject: Basics of Electronics
+Year: 2019
+Semester: 1
+College: PES University
+link: https://drive.google.com/file/d/16sT2T8XYqhJMezAk8eQOgNSuxT3ELlzn/view?usp=sharing
+
+#7
+Subject: Basics of Electronics
+Year: 2016
+Semester: 1
+College: PES University
+link:https://drive.google.com/file/d/1MY87N4jwN_FSB-VpzLeGPwy6JcSISwZa/view?usp=sharing
+
+#8
+Subject: Basics of Electronics
+Year: 2014
+Semester: 1
+College: PES University
+link: https://drive.google.com/file/d/1NWwje-1L0CEyHifvrXTqRZzj6oO-IvP9/view?usp=sharing
