@@ -35,3 +35,9 @@ def textbook(request):
 def landingpage(request):
     return render(request, 'Secondarylogin.html')
 
+@login_required
+def search(request):
+    if request.method=='GET':
+      search =request.GET.get('search')
+      post= notes.objects.all().filter(Subject=search)
+      return render(request, 'message.html', {'post': post})
