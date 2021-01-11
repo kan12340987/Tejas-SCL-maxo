@@ -1,0 +1,14 @@
+{{ error}}
+
+{$ if post %}
+<h1> Search is found </h1>
+
+<br>
+
+{% for i in post %}
+<h2><a href="/">{{i.Subject}} ></a></h2>
+{% endfor %}
+
+{% else %}
+<h1>nothing is found </h1>
+{% endif %}
