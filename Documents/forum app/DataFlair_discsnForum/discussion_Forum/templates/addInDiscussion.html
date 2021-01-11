@@ -1,0 +1,30 @@
+<head>
+    <style>
+        form{
+            border:4px solid black;
+            margin: 0 auto;
+            padding: 50px;
+            width: fit-content;
+            height: 300px;
+        }
+        div{
+
+          display: block;
+          height: 1
+          00px;
+          width: 200px;
+          padding: 10%;
+
+
+        }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"0>
+    
+</head>
+<div class="container">
+<form action="{% url 'addInDiscussion' %}" method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" class="btn btn-success" value="submit">
+</form>
+</div>
