@@ -77,3 +77,90 @@ Year: 2019
 Semester: 7
 University: VTU
 link: https://drive.google.com/file/d/1CLU47Cz3LomJuq10iDsC_W0PJyALk9mH/view?usp=sharing
+
+#11
+Branch: Electrical and Electronics Engineering
+Subject: Power system analysis 
+Year: 2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1AF0g9wO6yxSBQfbcWEVb0N4IedJK9QZX/view?usp=sharing
+
+#12
+Branch: Electrical and Electronics Engineering
+Subject: Space craft technologies
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1Ka9AAALWZOSkP8KyIfuuyGz3Dsl86o7Q/view?usp=sharing
+
+#13
+Branch: Electrical and Electronics Engineering
+Subject: Power system planning
+Year: 2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1piV5tpjTsuGebJ_jVBQ3IaoCqnSbkco1/view?usp=sharing
+
+#13
+Branch: Electrical and Electronics Engineering
+Subject: High voltage engineering
+Year: 2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1vFse6PdPdINQx6VC5eWQIGW8rvGngVqP/view?usp=sharing
+
+#14
+Branch: Electrical and Electronics Engineering
+Subject: Power system operation and control
+Year: 2019
+Semester: 8
+University: VTU
+link: https://drive.google.com/file/d/1HTNep5r37c205DXFz_qAHYSWar9AE3wm/view?usp=sharing
+
+#15
+Branch: Electrical and Electronics Engineering
+Subject: Industrial Drives and applications
+Year: 2019
+Semester: 8
+University: VTU
+link: https://drive.google.com/file/d/1kBS9XSJ-M-MKODkjR5WrTHL0hmL9qLPL/view?usp=sharing
+
+#16
+Branch: Electrical and Electronics Engineering
+Subject: Operation and maintenance of solar electric system
+Year: 2019
+Semester: 8
+University: VTU
+link: https://drive.google.com/file/d/1qFIkAwQ57nR974DKJY2p7pNdN7JYAt3W/view?usp=sharing
+
+#17
+Branch: Electrical and Electronics Engineering
+Subject: Power system analysis
+Year: 2019
+Semester: 7
+University: VTU
+link:https://drive.google.com/file/d/1Wctr-lG6DZtUhOzpqF4XZkiOG4CcfBz5/view?usp=sharing
+
+#18
+Branch: Electrical and Electronics Engineering
+Subject: Power system protection
+Year: 2019
+Semeste: 7
+University: VTU
+link: https://drive.google.com/file/d/1b7hYiEUcbu8zWkB9hC0uSxTeAZPgkwul/view?usp=sharing
+
+#19
+Branch: Electrical and Electronics Engineering
+Subject: High voltage engineering
+Year: 2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1FqEg4b6kvQkFE1B0OMdy9lqEq-M9Ingl/view?usp=sharing
+
+#20
+Branch: Electrical and Electronics Engineering
+Subject: Advanced control systems
+Year: 2019
+Semester: 7
+University: VTU
+link: https://drive.google.com/file/d/1XkLlT-QqUVy16PZLXk036UtzQwRd6eyG/view?usp=sharing\
