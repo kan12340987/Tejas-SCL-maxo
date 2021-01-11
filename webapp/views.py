@@ -35,6 +35,12 @@ def textbook(request):
 def landingpage(request):
     return render(request, 'Secondarylogin.html')
 
+
+
+@login_required
+def contact(request):
+   return render(request, 'ContactUs.html')    
+
 @login_required
 def search(request):
     if request.method=='GET':
