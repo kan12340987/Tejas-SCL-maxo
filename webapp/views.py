@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required
 from webapp.models import QPapers, notes, Texbook
 from django.contrib.auth.models import User
 
+
 def home(request):
     return render(request, 'index.html')
 
@@ -35,3 +36,9 @@ def textbook(request):
 def landingpage(request):
     return render(request, 'Secondarylogin.html')
 
+@login_required
+def search(request):
+    if request.method=='GET':
+      search =request.GET.get('search')
+      post= notes.objects.all().filter(Subject=search)
+      return render(request, 'message.html', {'post': post})
