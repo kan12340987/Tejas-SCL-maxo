@@ -57,8 +57,8 @@
             <form method="POST" action="{% url 'addInForum' %}">
                 {% csrf_token %}
             <button class="btn btn-success" style="width:fit-content; padding: 4px; margin:10px;">Add more</button>
-            </form>
         </h2>
+            </form>
             <div class="card-columns" style="padding: 10px; margin: 20px;"></div>
             
          <!--- added--->   <div class="extra"> 
@@ -86,7 +86,7 @@
                             {% endif %}
                             {%endfor%}
                             <br>
-                            {%endfor%}
+                            {%endfor%}     
                             <form method="POST" action="{% url 'addInDiscussion' %}">
                                 {% csrf_token %}
                             <button class="btn btn-success" style="width:fit-content; padding: 4px; margin:10px;">post here</button>

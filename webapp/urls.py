@@ -12,5 +12,6 @@ urlpatterns = [
     path('dashboard/', Users_views.dashboard, name='Users-dashboard'),
     path('profile/', Users_views.profile, name='Users-profile'),
     path('logout/',Users_views.logOut, name='Users-logout'),
+    path('contact/',views.contact, name='contact'),
     path('search/',views.search, name='searchbar'),
 ]
