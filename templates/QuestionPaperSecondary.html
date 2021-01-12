@@ -4,9 +4,9 @@
  <title>NoteRepo - Question Papers</title>
  {% endblock %}
     {% block content %}
-    <form style="float:right;"class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                            <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
-                                <div class="input-group-append"><button class="btn btn-primary py-0" type="button" style="background: rgb(0,128,0);">🔍</button></div>
+    <form style="float:right;"class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" method="get" action="{% url 'searchbar' %}">
+                            <div class="input-group"><input class="bg-light form-control border-0 small" type="text" name="search" placeholder="Search for ...">
+                                <div class="input-group-append"><button class="btn btn-primary py-0" type="submit" style="background: rgb(0,128,0);">🔍</button></div>
                             </div>
                         </form>
 {% endblock content %}
