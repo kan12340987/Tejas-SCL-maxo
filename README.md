@@ -343,8 +343,55 @@ Once logged in, the landing page will the first thing you will see. This is the 
 <br>
 <br>
 
-### Forums 
-**```This Feature is currently under Development```**
+### Forums <br>
+
+<br>
+
+**The forum is inspired by DataFlair forums**
+<br>
+
+**The Forum app can be used to request features, discuss with other users and also comment views about the website**
+<br>
+
+
+1. To get into the forum, first login or sign up  through the main page.<br>
+<br>
+2. From the Home Page, Choose the ```Forum``` from the Navigation Bar.
+   
+<img src="media\ReadMe Screenshots\forums\MainPage.png"/>
+<br>
+<br>
+
+3. Here you can discuss on the existing forum posts by other users, or choose the ```Add more``` option on the top right corner.
+
+<img src="media\ReadMe Screenshots\forums\ForumPage.png"/>
+<br>
+<br>
+
+4. Here, you can fill in details to raise an issue on the forum to discuss.
+
+<img src="media\ReadMe Screenshots\forums\AddForum.png"/>
+<br>
+<br>
+
+5. After The issue being raised, you or other users can add views or comments to the forum issue.
+
+<img src="media\ReadMe Screenshots\forums\AddedForum.png"/>
+<br>
+<br>
+
+6. You can fill in the details for the comment or the views and click on submit to submit the view.
+
+<img src="media\ReadMe Screenshots\forums\Addviews.png"/>
+<br>
+<br>
+
+7. This will be shown below the forum post as a comment. you can add more comments and views. 
+
+<img src="media\ReadMe Screenshots\forums\AddedViews.png"/>
+<br>
+<br>
+
 
 <br>
 <br>
