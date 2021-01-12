@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 
@@ -11,18 +12,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/-Fixed-Navbar-start-with-transparency-background-BS4-.css">
-    <link rel="stylesheet" href="assets/css/Animated-Typing-With-Blinking.css">
-    <link rel="stylesheet" href="assets/css/button-haja.css">
-    <link rel="stylesheet" href="assets/css/Button-Outlines---Pretty.css">
-    <link rel="stylesheet" href="assets/css/Data-Table.css">
+    <link rel="stylesheet" href="{% static 'fonts/fontawesome5-overrides.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Fixed-Navbar-start-with-transparency-background-BS4.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Animated-Typing-With-Blinking.css' %}">
+    <link rel="stylesheet" href="{% static 'css/button-haja.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Button-Outlines---Pretty.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Data-Table.css' %}">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/Modern-Contact-Form.css">
-    <link rel="stylesheet" href="assets/css/Pulse-Button-on-Hover.css">
-    <link rel="stylesheet" href="assets/css/Search-Input-responsive.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/Team-with-rotating-cards.css">
+    <link rel="stylesheet" href="{% static 'css/Modern-Contact-Form.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Pulse-Button-on-Hover.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Search-Input-responsive.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Modern-Contact-Form' %}">
+    <link rel="stylesheet" href="{% static 'css/Team-with-rotating-cards.css' %}">
 </head>
 
 <body>
@@ -42,7 +43,7 @@
             </div>
             <hr class="modern-form__hr" style="border-color: rgb(0,128,0);">
             <div class="modern-form__form-container">
-                <form action="mailto:teamtejasWKC@gmail.com" method="post" enctype="text/plain">
+                <form>
                     <div class="form-row">
                         <div class="col col-contact">
                             <div class="form-group modern-form__form-group--padding-r"><input class="form-control input input-tr" type="text" placeholder="First Name">
@@ -81,8 +82,8 @@
             <div class="container"><a class="navbar-brand text-success" href="#header" style="border-left-color: rgb(115,26,26);"><i class="fa fa-leaf fa-2x"></i><strong>Note</strong>Repo</a><button data-toggle="collapse" class="navbar-toggler collapsed" data-target="#navcol-1"><span></span><span></span><span></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="{%  url 'Users-Homepage' %}">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{%  url 'Users-about' %}">About us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-about' %}">About us</a></li>
                         <li class="nav-item"></li>
                         <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Resources</a>
                             <div class="dropdown-menu"><a class="dropdown-item" href="{% url 'Users-Notebook' %}">Notebooks</a><a class="dropdown-item" href="{% url 'Users-Textbook' %}">Textbooks</a><a class="dropdown-item" href="{% url 'Users-Papers' %}">Question Papers</a></div>
@@ -98,8 +99,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
-    <script src="assets/js/-Fixed-Navbar-start-with-transparency-background-BS4-.js"></script>
-    <script src="assets/js/Animated-Typing-With-Blinking.js"></script>
+    <script src="{% static 'js/-Fixed-Navbar-start-with-transparency-background-BS4-.js' %}"></script>
+    <script src="{% static 'js/Animated-Typing-With-Blinking.js' %}"></script>
 </body>
 
 </html>
