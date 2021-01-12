@@ -1,11 +1,50 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forums - NoteRepo</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"0>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>NoteRepo - Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:300,400">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/NavBar.css'%}">
+    <link rel="stylesheet" href="css/Pulse-Button-on-Hover-1.css">
+    <link rel="stylesheet" href="{% static 'css/Pulse-Button-on-Hover.css'%}">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/3aa31213fd.js" crossorigin="anonymous"></script>
+</head>
+<style type="text/css"></style>
+<body>
+    <!-- Start: Fixed Navbar start with transparency background -->
+    <div class="container">
+        <!-- Start: Menu + header background -->
+        <header>
+            <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white transparency border-bottom border-light" id="transmenu">
+                <div class="container"><button class="navbar-toggler collapsed" data-toggle="collapse"><span></span><span></span><span></span></button></div>
+            </nav>
+        </header><!-- End: Menu + header background -->
+    </div><!-- End: ♣ Fixed Navbar start with transparency background --><div style="height: 100px;" ></div><!-- Start: 1 Row 1 Column -->
+
+    <!-- Start: background + text -->
+    <header class="bg-success d-flex align-items-center" style="height: 0vh;color: rgb(56,100,143);background: rgb(26,73,238);">
+        <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white transparency border-bottom border-light" id="transmenu-1">
+            <div class="container"><a class="navbar-brand text-success" href="{% url 'Users-Homepage' %}" style="border-left-color: rgb(115,26,26);"><i class="fa fa-leaf fa-2x"></i><strong>Note</strong>Repo</a><button data-toggle="collapse" class="navbar-toggler collapsed" data-target="#navcol-1"><span></span><span></span><span></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-about' %}">About Us&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link active" href="{% url 'home' %}">Forums&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'contact' %}">Contact Us&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-profile' %}">Profile&nbsp;&nbsp;&nbsp;<i class="far fa-user"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <style>
 
         .box{
@@ -15,7 +54,6 @@
            background-color: #2bd44b;
             color: #ffffff;  
             border-radius: 1%;
-            
         }
         .space{
             padding: 10px;
@@ -23,45 +61,39 @@
             font-family:'Lato', sans-serif;
             background-color:#e3ae64;
             color: #fff;
-
-
         }
         @media only screen and (max-width: 450px){
         .box card box container{
             display: block;
             width:fit-content;
             padding: 10px;
-            
-
         }
         }
 
         .bg{
             background-size: 1800px 900px;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-    
-
-
-
+            background-repeat: no-repeat;
+            background-position: top;
+            background-attachment: fixed;
          }
        
 
 
     </style>
 </head>
-<body  id="bg "  style="background-color: url('{% static 'img/rotary.jpg' %}');">
+<body  id="bg "  style="background-color:; url('{% static 'img/rotary.jpg' %}');">
         <h2 class="jumbotron">
-            Currently active forums: {{count}}
+            Currently Active Discussions: {{count}}
             <form method="POST" action="{% url 'addInForum' %}">
                 {% csrf_token %}
-            <button class="btn btn-success" style="width:fit-content; padding: 4px; margin:10px;">Add more</button>
+            <button class="btn btn-success" style="width:fit-content; padding: 10px; margin:30px; border-radius:10px">Add more</button>
         </h2>
             </form>
             <div class="card-columns" style="padding: 10px; margin: 20px;"></div>
             
-         <!--- added--->   <div class="extra"> 
+         <!--added--!>  
+         
+          <div class="extra"> 
             {%for forum in forums %}
                 
                 <div class="card box container">
@@ -89,7 +121,7 @@
                             {%endfor%}     
                             <form method="POST" action="{% url 'addInDiscussion' %}">
                                 {% csrf_token %}
-                            <button class="btn btn-success" style="width:fit-content; padding: 4px; margin:10px;">post here</button>
+                            <button class="btn btn-success" style="width:fit-content; padding: 10px; margin:10px; border-radius:5px">post here</button>
                             </form>
                         </div>
                 </div>
