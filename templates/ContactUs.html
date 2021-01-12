@@ -5,102 +5,98 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Untit</title>
+    <title>NoteRepo - Contact Us</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:300,400">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css">
-    <link rel="stylesheet" href="{% static 'fonts/fontawesome5-overrides.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/Fixed-Navbar-start-with-transparency-background-BS4.css' %}">
-    <link rel="stylesheet" href="{% static 'css/Animated-Typing-With-Blinking.css' %}">
-    <link rel="stylesheet" href="{% static 'css/button-haja.css' %}">
-    <link rel="stylesheet" href="{% static 'css/Button-Outlines---Pretty.css' %}">
-    <link rel="stylesheet" href="{% static 'css/Data-Table.css' %}">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
-    <link rel="stylesheet" href="{% static 'css/Modern-Contact-Form.css' %}">
-    <link rel="stylesheet" href="{% static 'css/Pulse-Button-on-Hover.css' %}">
-    <link rel="stylesheet" href="{% static 'css/Search-Input-responsive.css' %}">
-    <link rel="stylesheet" href="{% static 'css/Modern-Contact-Form' %}">
-    <link rel="stylesheet" href="{% static 'css/Team-with-rotating-cards.css' %}">
+    <link rel="stylesheet" href="{% static 'css/NavBar.css'%}">
+    <link rel="stylesheet" href="css/Pulse-Button-on-Hover-1.css">
+    <link rel="stylesheet" href="{% static 'css/Pulse-Button-on-Hover.css'%}">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/3aa31213fd.js" crossorigin="anonymous"></script>
 </head>
-
+<style type="text/css">
+    
+</style>
 <body>
-    <!-- Start: ♣ Fixed Navbar start with transparency background -->
-    <div>
+    <!-- Start: Fixed Navbar start with transparency background -->
+    <div class="container">
         <!-- Start: Menu + header background -->
         <header>
             <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white transparency border-bottom border-light" id="transmenu">
                 <div class="container"><button class="navbar-toggler collapsed" data-toggle="collapse"><span></span><span></span><span></span></button></div>
             </nav>
         </header><!-- End: Menu + header background -->
-    </div><!-- End: ♣ Fixed Navbar start with transparency background --><div style="height: 100px;" ></div><!-- Start: Modern Contact Form -->
-    <section class="getintouch">
-        <div class="container modern-form">
-            <div class="text-center">
-                <h4 style="color: #212529;font-size: 45px;">Get in touch</h4>
-            </div>
-            <hr class="modern-form__hr" style="border-color: rgb(0,128,0);">
-            <div class="modern-form__form-container">
-                <form>
-                    <div class="form-row">
-                        <div class="col col-contact">
-                            <div class="form-group modern-form__form-group--padding-r"><input class="form-control input input-tr" type="text" placeholder="First Name">
-                                <div class="line-box">
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-contact">
-                            <div class="form-group modern-form__form-group--padding-l"><input class="form-control input input-tr" type="text" placeholder="Email">
-                                <div class="line-box">
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col">
-                            <div class="form-group modern-form__form-group--padding-t"><textarea class="form-control input modern-form__form-control--textarea" placeholder="Message"></textarea>
-                                <div class="line-box">
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col text-center"><button class="btn btn-primary submit-now" type="submit" style="width: 137px;">Submit&nbsp;</button></div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section><!-- End: Modern Contact Form -->
+    </div><!-- End: ♣ Fixed Navbar start with transparency background --><div style="height: 100px;" ></div><!-- Start: 1 Row 1 Column -->
+
     <!-- Start: background + text -->
     <header class="bg-success d-flex align-items-center" style="height: 0vh;color: rgb(56,100,143);background: rgb(26,73,238);">
         <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white transparency border-bottom border-light" id="transmenu-1">
-            <div class="container"><a class="navbar-brand text-success" href="#header" style="border-left-color: rgb(115,26,26);"><i class="fa fa-leaf fa-2x"></i><strong>Note</strong>Repo</a><button data-toggle="collapse" class="navbar-toggler collapsed" data-target="#navcol-1"><span></span><span></span><span></span></button>
+            <div class="container"><a class="navbar-brand text-success" href="{% url 'Users-Homepage' %}" style="border-left-color: rgb(115,26,26);"><i class="fa fa-leaf fa-2x"></i><strong>Note</strong>Repo</a><button data-toggle="collapse" class="navbar-toggler collapsed" data-target="#navcol-1"><span></span><span></span><span></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-about' %}">About us</a></li>
-                        <li class="nav-item"></li>
-                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Resources</a>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="{% url 'Users-Notebook' %}">Notebooks</a><a class="dropdown-item" href="{% url 'Users-Textbook' %}">Textbooks</a><a class="dropdown-item" href="{% url 'Users-Papers' %}">Question Papers</a></div>
-                        </li>
-                        <li class="nav-item"></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-about' %}">About Us&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'home' %}">Forums&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link active" href="{% url 'contact' %}">Contact Us&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-profile' %}">Profile&nbsp;&nbsp;&nbsp;<i class="far fa-user"></i></a></li>
                     </ul>
-                </div><button class="btn btn-primary" type="button">Log In</button>
+                </div>
             </div>
         </nav>
-        <div></div>
-    </header><!-- End: background + text -->
+    </header>
+        <div style="height:100px; width:100px;"></div>
+            <section class="getintouch">
+                <div class="container modern-form">
+                    <div class="text-center">
+                        <h4 style="color: #212529;font-size: 45px;">Get in touch</h4>
+                    </div>
+                    <hr class="modern-form__hr" style="border-color: rgb(0,128,0);">
+                    <div class="modern-form__form-container">
+                        <form>
+                            <div class="form-row">
+                                <div class="col col-contact">
+                                    <div class="form-group modern-form__form-group--padding-r"><input class="form-control input input-tr" type="text" placeholder="First Name">
+                                        <div class="line-box">
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-contact">
+                                    <div class="form-group modern-form__form-group--padding-l"><input class="form-control input input-tr" type="text" placeholder="Email">
+                                        <div class="line-box">
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <div class="form-group modern-form__form-group--padding-t"><textarea class="form-control input modern-form__form-control--textarea" placeholder="Message"></textarea>
+                                        <div class="line-box">
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col text-center"><button class="btn btn-primary submit-now" type="submit" style="width: 137px;">Submit&nbsp;</button></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section><!-- End: Modern Contact Form -->
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
-    <script src="{% static 'js/-Fixed-Navbar-start-with-transparency-background-BS4-.js' %}"></script>
-    <script src="{% static 'js/Animated-Typing-With-Blinking.js' %}"></script>
+    <script src="https://cdn.quilljs.com/1.0.0/quill.js"></script>
+    <script src="assets/js/Quill-Text-Editor.js"></script>
+    <script src="assets/js/-Fixed-Navbar-start-with-transparency-background-BS4-.js"></script>
+    <script src="assets/js/Animated-Typing-With-Blinking.js"></script>
 </body>
 
 </html>
