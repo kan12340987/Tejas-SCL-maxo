@@ -2,6 +2,7 @@
 {% load static %}
  {% block head %}
  <title>About Us</title>
+ <script src="https://kit.fontawesome.com/3aa31213fd.js" crossorigin="anonymous"></script>
  {% endblock %}
     {% block content %}
                 <div class="container"><button class="navbar-toggler collapsed"
@@ -23,8 +24,11 @@
                     data-target="#navcol-1"><span></span><span></span><span></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="{% url 'Users-about' %}">About us</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-Homepage' %}">Home&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link active" href="{% url 'Users-about' %}">About Us&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'home' %}">Forums&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'contact' %}">Contact Us&nbsp;&nbsp;&nbsp;</a></li>
+                        <li class="nav-item" style="font-size: larger"><a class="nav-link" href="{% url 'Users-profile' %}">Profile&nbsp;&nbsp;&nbsp;<i class="far fa-user"></i></a></li>
                         <!-- <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li> -->
                         <!--<li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown"
                                 aria-expanded="false" href="#">Resources</a>
