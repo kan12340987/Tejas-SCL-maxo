@@ -32,7 +32,7 @@
   text-transform: uppercase;
   border-radius: 30px;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 60px;
 
   overflow: hidden;
   height: auto;
@@ -88,6 +88,9 @@ only screen and (max-width: 760px),
  .container{
     width:100%;
  }
+ .mobile{
+  width: fit-content;
+ }
 
 }
 
@@ -132,13 +135,15 @@ only screen and (max-width: 760px),
         </nav>
         <div></div>
     </header><!-- End: background + text -->
+    <div class="mobile" style="position: relative; margin-left: 1150px; top: -207px; padding:20px; background-color:#fff;" >
     {% if messages %}
         {% for message in messages %}
-            <div class="alert alert-{{ message.tags }}" >
+            <div style="color: red;background-color:#fff; background:#28b31c; padding:10px; color:#fff; padding:10px; height: 65px;text-align: center; " class="alert alert-{{ message.tags }}" >
                 {{ message }}
             </div>
         {% endfor %}
     {% endif %}
+  </div>
     <!-- Start: Pulse Button on Hover -->
     
    <!-- <button type="button" id="one" class="btn btn-primary">Primary</button> ---->
