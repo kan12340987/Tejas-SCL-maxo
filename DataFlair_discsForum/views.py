@@ -1,8 +1,11 @@
 from django.shortcuts import render,redirect
 from .models import * 
 from .forms import * 
+from django.contrib.auth.decorators import login_required
+
 # Create your views here.
  
+@login_required
 def home(request):
     forums=forum.objects.all()
     count=forums.count()
@@ -15,6 +18,8 @@ def home(request):
               'discussions':discussions}
     return render(request,'home.html',context)
  
+
+@login_required
 def addInForum(request):
     form = CreateInForum()
     if request.method == 'POST':
@@ -25,6 +30,8 @@ def addInForum(request):
     context ={'form':form}
     return render(request,'addInForum.html',context)
  
+
+@login_required
 def addInDiscussion(request):
     form = CreateInDiscussion()
     if request.method == 'POST':
