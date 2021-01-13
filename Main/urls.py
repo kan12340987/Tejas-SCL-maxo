@@ -16,21 +16,19 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from Users import views as users_views
-from DataFlair_discsForum import views 
+from forum import views
 from django.contrib.auth import views as auth_views
 from django.conf import settings
 from django.conf.urls.static import static
 
 
-
-
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('webapp.urls')),
-    path('forum/', include('DataFlair_discsForum.urls')),
+    path('forum/', include('forum.urls')),
     path('login/', users_views.login, name="Users-login"),
-    path('oauth/', include('social_django.urls', namespace='social')), #path of social login
+    # path of social login
+    path('oauth/', include('social_django.urls', namespace='social')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

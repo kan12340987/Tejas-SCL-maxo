@@ -29,7 +29,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('discuss', models.CharField(max_length=1000)),
-                ('forum', models.ForeignKey(blank=True, on_delete=django.db.models.deletion.CASCADE, to='DataFlair_discsForum.forum')),
+                ('forum', models.ForeignKey(blank=True, on_delete=django.db.models.deletion.CASCADE, to='forum.forum')),
             ],
         ),
     ]
