@@ -47,3 +47,6 @@ def search(request):
       search =request.GET.get('search')
       post= notes.objects.all().filter(Subject=search)
       return render(request, 'message.html', {'post': post})
+
+def requestForm(request):
+    return render(request, 'request1.html')
