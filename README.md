@@ -310,15 +310,12 @@ Once logged in, the landing page will the first thing you will see. This is the 
 <img src="media\ReadMe Screenshots\Utilities\AboutUs.png">
 <br>
 <br>
-<li>Forums - Takes you the forum section of the page (under development)</li>
-<br>
-
-**```This Feature is currently under Development```**
+<li>Forums - Takes you the forum section of the page</li>
 <br>
 <br>
 <li>Contact Us - To send us a message</li>
 <br>
-
+  
 **```This Feature is currently under Development```**
 <br>
 <br>
