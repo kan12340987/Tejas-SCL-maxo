@@ -137,13 +137,14 @@ For further details, you can get in touch with the repo owner or contributors.
 to fix this issue, run the following command:**
 
 ```pip uninstall python-openid && pip uninstall python3-openid```
+
 **press 'y' if asked for authorisation.**
 
 **then reinstall the uninstalled packages**
 
 ```pip install python-openid && pip install python3-openid```
 
-** and then continue with the following instructions**
+**and then continue with the following instructions**
 
 
 5. Make migrations/ Create db.sqlite3
