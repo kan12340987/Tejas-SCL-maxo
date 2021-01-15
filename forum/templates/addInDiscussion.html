@@ -1,11 +1,31 @@
 <head>
     <style>
+
+
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .front-imagia, .back-imagia {
+    -ms-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+}
+
+
+
+
+
         form{
-            border:4px solid black;
-            margin: 0 auto;
-            padding: 50px;
-            width: fit-content;
-            height: 300px;
+           -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  
+  backface-visibility: hidden;
+  position: absolute;
+  top: 150;
+  left: 560;
+  width: 400px;
+  padding: 70px;
+  background-color: #FFF;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+  padding-bottom: 46px;
         }
 
         
@@ -23,10 +43,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"0>
     
 </head>
-<div class="container">
+<div class="container1">
 <form action="{% url 'addInDiscussion' %}" method="POST">
     {% csrf_token %}
     {{form.as_p}}
-    <input type="submit" class="btn btn-success" value="submit">
+    <input  type="submit" class="btn btn-success" value="submit">
 </form>
 </div>
