@@ -54,17 +54,21 @@
                     </div>
                     <hr class="modern-form__hr" style="border-color: rgb(0,128,0);">
                     <div class="modern-form__form-container">
-                        <form>
+                        
+                             
+                        <form method="post" action="{% url 'contact' %}" autocomplete="on" name="google-sheet" >
+                         {% csrf_token %}
+
                             <div class="form-row">
                                 <div class="col col-contact">
-                                    <div class="form-group modern-form__form-group--padding-r"><input class="form-control input input-tr" type="text" placeholder="First Name">
+                                    <div class="form-group modern-form__form-group--padding-r"><input class="form-control input input-tr" type="text" name="Firstname" placeholder="First Name">
                                         <div class="line-box">
                                             <div class="line"></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col col-contact">
-                                    <div class="form-group modern-form__form-group--padding-l"><input class="form-control input input-tr" type="text" placeholder="Email">
+                                    <div class="form-group modern-form__form-group--padding-l"><input class="form-control input input-tr" type="email" name="Emailing" placeholder="Email">
                                         <div class="line-box">
                                             <div class="line"></div>
                                         </div>
@@ -73,7 +77,7 @@
                             </div>
                             <div class="form-row">
                                 <div class="col">
-                                    <div class="form-group modern-form__form-group--padding-t"><textarea class="form-control input modern-form__form-control--textarea" placeholder="Message"></textarea>
+                                    <div class="form-group modern-form__form-group--padding-t"><textarea class="form-control input modern-form__form-control--textarea" name="Message" placeholder="Message"></textarea>
                                         <div class="line-box">
                                             <div class="line"></div>
                                         </div>
@@ -84,9 +88,21 @@
                                 <div class="col text-center"><button class="btn btn-primary submit-now" type="submit" style="width: 137px;">Submit&nbsp;</button></div>
                             </div>
                         </form>
-                    </div>
+                                        </div>
                 </div>
             </section><!-- End: Modern Contact Form -->
+
+          <script>
+            const scriptURL ='https://script.google.com/macros/s/AKfycbwR-vFXJ36FNSqXvt7iOSsfDfK-ATIzP2HllhfjZeUo3FBkK6JMxRtE6A/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
 
 
 

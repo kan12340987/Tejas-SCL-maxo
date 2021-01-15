@@ -3,6 +3,8 @@ from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 from webapp.models import QPapers, notes, Texbook
 from django.contrib.auth.models import User
+from django.core.mail import send_mail
+from django.conf import settings
 
 def home(request):
     return render(request, 'index.html')
@@ -39,7 +41,18 @@ def landingpage(request):
 
 @login_required
 def contact(request):
-   return render(request, 'ContactUs.html')    
+
+    if request.method == 'POST':
+      message= request.POST['Message']
+      email = request.POST['Emailing']
+      send_mail(
+      'Confirmation Email',
+      message,
+      settings.EMAIL_HOST_USER,
+      [email],
+      fail_silently=False,
+     )
+    return render(request, 'ContactUs.html')    
 
 @login_required
 def search(request):
