@@ -315,8 +315,14 @@ Once logged in, the landing page will the first thing you will see. This is the 
 <br>
 <li>Contact Us - To send us a message</li>
 <br>
-  
-**```This Feature is currently under Development```**
+
+**Use this form to contact us.**
+<br>
+**Submit details like you name, email and a message for us to get back to you**
+<br>
+
+<img src="media\ReadMe Screenshots\request and contact\ContactUs.png">
+
 <br>
 <br>
 <li>Profile - Takes you to the profile section</li>
@@ -345,6 +351,27 @@ Once logged in, the landing page will the first thing you will see. This is the 
 <br>
 <br>
 </ul>
+<br>
+<br>
+
+**Request Button**
+<br>
+<br>
+
+**You can request for books and other resources through the request button from either of the three resource pages**
+
+1. Click on the request button.
+
+<img src="media\ReadMe Screenshots\request and contact\Requestbutton.png">
+<br>
+<br>
+
+2. Fill up the form with necessary information and wait for us to get back.
+
+<img src="media\ReadMe Screenshots\request and contact\RequestForm.png">
+<br>
+<br>
+
 
 **You can View and Download any of the listed books by clicking on ```Download```. The links will take you to Google PDF Links and all options provided by Google PDF viewer will be available (requires you to login to you Google account)**
 
