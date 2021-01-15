@@ -376,7 +376,6 @@ Once logged in, the landing page will the first thing you will see. This is the 
 **You can View and Download any of the listed books by clicking on ```Download```. The links will take you to Google PDF Links and all options provided by Google PDF viewer will be available (requires you to login to you Google account)**
 
 1. The search function is currently under development.
-2. The add button is currently under development.
 
 <br>
 <br>
