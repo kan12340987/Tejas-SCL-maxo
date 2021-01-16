@@ -4,11 +4,16 @@
  <title>NoteRepo - References</title>
  {% endblock %}
     {% block content %}
-<form style="float:right;"class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" method="get" action="{% url 'searchbar' %}">
-                            <div class="input-group"><input class="bg-light form-control border-0 small" type="text" name="search" placeholder="Search for ...">
+<form  method="get"    style="float:right;" action="{% url 'search' %}" class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" >   
+                              {% csrf_token %}
+
+                            <div class="input-group"><input class="bg-light form-control border-0 small" type="search" name="select" placeholder="Search for ...">
                                 <div class="input-group-append"><button class="btn btn-primary py-0" type="submit" style="background: rgb(0,128,0);">🔍</button></div>
                             </div>
                         </form>
+
+                        <hr>
+                    
     {% endblock content %}
     {% block list %}
 <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
