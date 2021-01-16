@@ -73,3 +73,6 @@ def search(request):
         'allpost':allpost
         }
    return render(request,'search.html',context)
+
+def requestForm(request):
+    return render(request, 'request1.html')

@@ -131,8 +131,22 @@ For further details, you can get in touch with the repo owner or contributors.
     git pull
     git branch
     git checkout -b <your-branch-here>
-    ```
    
+   ```
+**Note: the python-openid and python3-openid package that come alone with the social-auth package are bugged.
+to fix this issue, run the following command:**
+
+```pip uninstall python-openid && pip uninstall python3-openid```
+
+**press 'y' if asked for authorisation.**
+
+**then reinstall the uninstalled packages**
+
+```pip install python-openid && pip install python3-openid```
+
+**and then continue with the following instructions**
+
+
 5. Make migrations/ Create db.sqlite3
 
     ```bash
@@ -296,16 +310,19 @@ Once logged in, the landing page will the first thing you will see. This is the 
 <img src="media\ReadMe Screenshots\Utilities\AboutUs.png">
 <br>
 <br>
-<li>Forums - Takes you the forum section of the page (under development)</li>
-<br>
-
-**```This Feature is currently under Development```**
+<li>Forums - Takes you the forum section of the page</li>
 <br>
 <br>
 <li>Contact Us - To send us a message</li>
 <br>
 
-**```This Feature is currently under Development```**
+**Use this form to contact us.**
+<br>
+**Submit details like you name, email and a message for us to get back to you**
+<br>
+
+<img src="media\ReadMe Screenshots\request and contact\ContactUs.png">
+
 <br>
 <br>
 <li>Profile - Takes you to the profile section</li>
@@ -334,11 +351,31 @@ Once logged in, the landing page will the first thing you will see. This is the 
 <br>
 <br>
 </ul>
+<br>
+<br>
+
+**Request Button**
+<br>
+<br>
+
+**You can request for books and other resources through the request button from either of the three resource pages**
+
+1. Click on the request button.
+
+<img src="media\ReadMe Screenshots\request and contact\Requestbutton.png">
+<br>
+<br>
+
+2. Fill up the form with necessary information and wait for us to get back.
+
+<img src="media\ReadMe Screenshots\request and contact\RequestForm.png">
+<br>
+<br>
+
 
 **You can View and Download any of the listed books by clicking on ```Download```. The links will take you to Google PDF Links and all options provided by Google PDF viewer will be available (requires you to login to you Google account)**
 
 1. The search function is currently under development.
-2. The add button is currently under development.
 
 <br>
 <br>

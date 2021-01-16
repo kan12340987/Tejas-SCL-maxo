@@ -114,8 +114,8 @@ only screen and (max-width: 760px),
             </div>
         </nav>
         <div></div>
-    </header><button class="btn btn-light btn-lg"  id= "bts" type="button"><a style="text-decoration: none; color: white;" href="https://forms.gle/fYyQBVcT2jFaMCJ99" target="_blank" rel="noopener noreferrer">Request&nbsp; &nbsp;</a><i class="fa fa-plus"></i>&nbsp;</button>
-    {% block list %}{% endblock %}
+       </header><button class="btn btn-light btn-lg"  id= "bts" type="button"><a style="text-decoration: none; color: white;" href="{% url 'requestForm' %}">Request&nbsp; &nbsp;</a><i class="fa fa-plus"></i>&nbsp;</button>
+{% block list %}{% endblock %} 
  <script src="{% static 'js/jquery.min.js'%}"></script>
     <script src="{% static 'js/bootstrap.min.js'%}"></script>
     <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
