@@ -56,7 +56,19 @@ def contact(request):
 
 @login_required
 def search(request):
-    if request.method=='GET':
-      search =request.GET.get('search')
-      post= notes.objects.all().filter(Subject=search)
-      return render(request, 'message.html', {'post': post})
+  
+   query = request.GET['select']
+   if len(query)> 78:
+     allpost =[]
+
+   else:  
+      allposttitle =Texbook.objects.filter(Title__icontains=query)
+      allpostauth= Texbook.objects.filter(Author__icontains=query)
+      allpostsub= Texbook.objects.filter(Subject__icontains=query)
+      allpostint= allposttitle.union(allpostauth)
+      allpost=allpostint.union(allpostsub)
+    
+      context = {
+        'allpost':allpost
+        }
+   return render(request,'search.html',context)
