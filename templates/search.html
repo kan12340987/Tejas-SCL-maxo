@@ -1,0 +1,43 @@
+{% extends "TextbookSecondary.html" %}
+{% load static %}
+ {% block head %}
+ <title>NoteRepo - References</title>
+ {% endblock %}
+    {% block content %}
+    <h1 style="color: red;">Search result</h1>
+
+
+   {% if allpost|length < 1 %}
+
+    <p> Your search is not working</p>  
+
+    {% endif %}              
+    {% endblock content %}
+    {% block list %}
+<table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+<thead>
+    <tr>
+        <th>Sr No.</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Branch</th>
+        <th>Subject</th>
+        <th>Publication Year</th>
+        <th>Download</th>
+    </tr>
+</thead>
+<tbody>
+    {% for book in allpost %}
+        <tr style="color: black;">
+            <td >{{ forloop.counter }}</td>
+            <td>{{ book.Title }}</td>
+            <td>{{ book.Author }}</td>
+            <td>{{ book.Branch }}</td>
+            <td>{{ book.Subject }}</td>
+            <td>{{ book.PublicationYear }}</td>
+            <td><a href={{ book.link }}  target="_blank" rel="noopener noreferrer">Download</a></td>
+        </tr>
+    {% endfor %}
+</tbody>
+</table><i class="fa fa-star"></i>
+{% endblock list %}
