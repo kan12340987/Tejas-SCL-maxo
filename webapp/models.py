@@ -2,7 +2,6 @@ from django.db import models
 from django.contrib.auth.models import User as User_model
 from django.core.validators import RegexValidator
 
-
 # Create your models here.
 alphanumeric = RegexValidator(r'^[0-9a-zA-Z]*$', 'Only alphanumeric characters are allowed.')
 
