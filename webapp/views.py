@@ -5,11 +5,9 @@ from webapp.models import QPapers, notes, Texbook
 from django.contrib.auth.models import User
 from django.core.mail import send_mail
 from django.conf import settings
-<<<<<<< HEAD
 
-from .models import *
-=======
->>>>>>> a82c529f7782e168cf4b8fd46219cc3d60285941
+
+
 
 def home(request):
     return render(request, 'index.html')
@@ -82,12 +80,10 @@ def search(request):
    return render(request,'search.html',context)
 
 
-<<<<<<< HEAD
-   
+
   
 
-=======
 
 def requestForm(request):
     return render(request, 'request1.html')
->>>>>>> a82c529f7782e168cf4b8fd46219cc3d60285941
+

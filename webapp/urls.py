@@ -14,10 +14,8 @@ urlpatterns = [
     path('logout/',Users_views.logOut, name='Users-logout'),
     path('contact/',views.contact, name='contact'),
     path('search/',views.search, name='search'),
-<<<<<<< HEAD
+
    
-    ]
-=======
+    
     path('request/', views.requestForm, name='requestForm'),
 ]
->>>>>>> a82c529f7782e168cf4b8fd46219cc3d60285941
