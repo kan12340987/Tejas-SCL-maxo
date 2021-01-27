@@ -1,19 +1,17 @@
-{% extends "baseSecondary.html" %}
+{% extends "TextbookSecondary.html" %}
 {% load static %}
  {% block head %}
  <title>NoteRepo - References</title>
  {% endblock %}
     {% block content %}
-<form  method="get"    style="float:right;" action="{% url 'search' %}" class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" >   
-                              {% csrf_token %}
+    <h1 style="color: red;">Search result</h1>
 
-                            <div class="input-group"><input class="bg-light form-control border-0 small" type="search" name="select" placeholder="Search for ...">
-                                <div class="input-group-append"><button class="btn btn-primary py-0" type="submit" style="background: rgb(0,128,0);">🔍</button></div>
-                            </div>
-                        </form>
 
-                        <hr>
-                    
+   {% if allpost|length < 1 %}
+
+    <p> Your search is not working</p>  
+
+    {% endif %}              
     {% endblock content %}
     {% block list %}
 <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
@@ -29,9 +27,9 @@
     </tr>
 </thead>
 <tbody>
-    {% for book in textbook %}
-        <tr>
-            <td>{{ forloop.counter }}</td>
+    {% for book in allpost %}
+        <tr style="color: black;">
+            <td >{{ forloop.counter }}</td>
             <td>{{ book.Title }}</td>
             <td>{{ book.Author }}</td>
             <td>{{ book.Branch }}</td>

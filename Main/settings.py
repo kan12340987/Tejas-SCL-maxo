@@ -26,6 +26,14 @@ SECRET_KEY = "u+1nty8^qky#f^*(1mlb3*&yexub%97&x1h=337%wn-&p_ga7o"
 DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1', 'noterepoapp.herokuapp.com']
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER ='teamtejaswkc@gmail.com'
+EMAIL_HOST_PASSWORD ='TejasWKC@11'
+EMAIL_PORT = 587
+EMAIL_USE_TLS= True
+
+
 
 
 # Application definition
@@ -41,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'social_django',
     'forum',
+   
 
 
 ]

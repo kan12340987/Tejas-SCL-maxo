@@ -3,6 +3,10 @@ from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 from webapp.models import QPapers, notes, Texbook
 from django.contrib.auth.models import User
+from django.core.mail import send_mail
+from django.conf import settings
+
+from .models import *
 
 def home(request):
     return render(request, 'index.html')
@@ -39,11 +43,42 @@ def landingpage(request):
 
 @login_required
 def contact(request):
-   return render(request, 'ContactUs.html')    
+
+    if request.method == 'POST':
+      message= request.POST['Message']
+      email = request.POST['Emailing']
+      send_mail(
+      'Confirmation Email',
+      message,
+      settings.EMAIL_HOST_USER,
+      [email],
+      fail_silently=False,
+     )
+    return render(request, 'ContactUs.html')    
 
 @login_required
 def search(request):
-    if request.method=='GET':
-      search =request.GET.get('search')
-      post= notes.objects.all().filter(Subject=search)
-      return render(request, 'message.html', {'post': post})
+  
+   query = request.GET['select']
+   if len(query)> 78:
+     allpost =[]
+
+   else:  
+      allposttitle =Texbook.objects.filter(Title__icontains=query)
+      allpostauth= Texbook.objects.filter(Author__icontains=query)
+      allpostsub= Texbook.objects.filter(Subject__icontains=query)
+      allpostint= allposttitle.union(allpostauth)
+      allpost=allpostint.union(allpostsub)
+    
+      
+     
+      
+      context = {
+        'allpost':allpost
+        }
+   return render(request,'search.html',context)
+
+
+   
+  
+
