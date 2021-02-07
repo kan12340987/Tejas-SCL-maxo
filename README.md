@@ -4,8 +4,8 @@
 <!-- Team Logos --!>
 
 <p align="center">
-  <img src="https://imagizer.imageshack.com/img922/931/mWPJBF.png" alt="Tejas-LOGO" height="100px" border="0"/>&nbsp; 
-  <img src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/prod-pict-xmark_2.png" height=65px; padding="0px 0px 20px 0px"# style>&nbsp; 
+  <img src="https://imagizer.imageshack.com/img922/931/mWPJBF.png" alt="Tejas-LOGO" height="120px" border="0"/>&nbsp; 
+  <img src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/prod-pict-xmark_2.png" height=75px; padding="0px 0px 20px 0px"# style>&nbsp; 
   <img src="https://imagizer.imageshack.com/img923/9449/MdJHUX.png" alt="SCL-Logo-PNG" height="130px" border="0"/>
   <h1 align="center">Tejas x SCL</h1>
 
