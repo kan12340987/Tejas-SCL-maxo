@@ -51,7 +51,6 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#a-note-for-contributors">A Note for the contributors</a></li>
         <li><a href="#project-description">Project Description</a></li>
       </ul>
     </li>
@@ -71,16 +70,6 @@
 <!-- About Project -->
 
 ## About the Project
-
-#### A Note for Contributors
-
-```
-This is the official project repo for SCL-Maxo, a 40-day Hackathon organised by Sushiksha, World Konkani Center.
-The repo is monitored and only members from team Tejas are allowed to make changes. 
-Thus, we will not be accepting any PRs from anyone apart from team members. 
-For further details, you can get in touch with the repo owner or contributors. 
-```
-
 
 #### Project Description
 
